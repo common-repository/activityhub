@@ -1,0 +1,28 @@
+.km_color_picker {
+    font-size: 0px;
+    height: 20px;
+    min-height: 20px !important;
+    width: 20px;
+    cursor: pointer;
+}
+
+.form-table td span {
+    vertical-align: -webkit-baseline-middle;
+}
+
+#km_admin_user_phone {
+    display: none;
+}
+
+.km_admin_fieldday_settings .iti__selected-flag {
+    width: 78px;
+    height: 30px;
+    justify-content: space-between;
+    background: #fff;
+    border: 1px solid #8c8f94;
+    border-radius: 2px;
+}
+
+.km_admin_fieldday_settings .iti__flag-container {
+    position: unset;
+}

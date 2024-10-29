@@ -1,0 +1,220 @@
+@charset 'UTF-8';
+/* Slider */
+.km_reviews_theme .slick-loading .slick-list
+{
+    background: #fff url('./ajax-loader.gif') center center no-repeat;
+}
+
+/* Icons */
+@font-face 
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('./fonts/slick.eot');
+    src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+}
+.km_reviews_theme .slick-slide img {
+    margin: 0 auto;
+}
+/* Arrows */
+.km_reviews_theme .slick-prev,
+.km_reviews_theme .slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+	z-index: 999;
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: #147B8D;
+}
+.km_reviews_theme .slick-prev:hover,
+.km_reviews_theme .slick-prev:focus,
+.km_reviews_theme .slick-next:hover,
+.km_reviews_theme .slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: #147B8D;
+}
+.km_reviews_theme .slick-prev:hover:before,
+.km_reviews_theme .slick-prev:focus:before,
+.km_reviews_theme .slick-next:hover:before,
+.km_reviews_theme .slick-next:focus:before
+{
+    opacity: 1;
+}
+.km_reviews_theme .slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.km_reviews_theme .slick-prev:before,
+.km_reviews_theme .slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.km_reviews_theme .slick-arrow {
+    background: #147B8D;
+    border-radius: 47%;
+}
+.km_reviews_theme .slick-prev
+{
+    left: 10px;
+}
+.km_reviews_theme [dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.km_reviews_theme .slick-prev:before
+{
+    content: '←';
+}
+.km_reviews_theme [dir='rtl'] .slick-prev:before
+{
+    content: '→'; 
+}
+
+.km_reviews_theme .slick-next
+{
+    right: 10px;
+}
+.km_reviews_theme [dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.km_reviews_theme .slick-next:before
+{
+    content: '→';
+}
+.km_reviews_theme [dir='rtl'] .slick-next:before
+{
+    content: '←';
+}
+
+/* Dots */
+.km_reviews_theme .slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+	padding: 0px;
+}
+
+.km_reviews_theme .slick-dots
+{
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.km_reviews_theme .slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.km_reviews_theme .slick-dots li span
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.km_reviews_theme .slick-dots li span:hover,
+.km_reviews_theme .slick-dots li span:focus
+{
+    outline: none;
+}
+.km_reviews_theme .slick-dots li span:hover:before,
+.km_reviews_theme .slick-dots li span:focus:before
+{
+    opacity: 1;
+}
+.km_reviews_theme .slick-dots li span:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-slide {
+	display:block !important;
+}
+.km_reviews_theme .slick-dots li.slick-active span:before
+{
+    opacity: .75;
+    color: black;
+}
+.km_reviews_theme .slick-slide {
+    max-height: 300px;
+    border-radius: 25px !important;
+    overflow: hidden;
+}
+

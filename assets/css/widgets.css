@@ -1,0 +1,1065 @@
+.km_featured_age {
+    /*display: inline-block;
+    width: 100%;*/
+}
+.km_featured_sessions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*Party Widget style*/
+
+/**/
+/*.km_party_grid:before {
+    position: absolute;
+    display: block;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    content: '';
+    opacity: 0.5;
+}*/
+/**/
+.km_parties:nth-child(odd) {
+    background: #fffee7;
+}
+.km_parties:nth-child(even) {
+    background: #fbfbfb;
+}
+.km_parties_title {
+    margin-left: 0px;
+}
+.km_parties {
+    padding: 10px 20px;
+    /*background: #fbfbfb;*/
+    margin-top: 20px;line-height: 26px; 
+    float:left;
+}
+.km_parties_included {
+    font-size: 14px;
+    /* line-height: 20px; */
+}
+.km_parties_included a {
+    text-decoration: underline;
+    margin-left: 12px;
+    margin-top: 5px;
+    display: block;
+}
+.km_partiesoptions img {
+    border-radius: 5px;
+    height: 185px;
+    width: 100%;   
+
+}
+.km_party_rooms_single h2 {
+    text-align: center;padding: 10px 0px;
+}
+.km_party_btn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+.km_addons {
+    float: left;
+    width: 100%;
+}
+.km_parties .km_activity_description{
+    float: left;
+    width: 50%;   
+    padding-right: 10px;
+    font-size: 14px;
+    line-height: 23px;
+}
+.km_partiesoptions {
+    display: grid;
+    margin: 0;
+    grid-template-columns: repeat(2,1fr);
+    width: 50%;
+    float: left;
+    /* background: #f7f3f3; */
+    padding: 10px 10px;
+    box-shadow: 0px 5px 10px #ccc;
+    grid-gap: 5%;
+    margin-bottom: 30px;
+}
+.km_party_rooms_single {
+    padding: 10px 20px; box-shadow: 0px 3px 14px #ccc;
+    float:left;
+    /*display:flex;*/
+}
+.km_birthday_widget .km_activity_row{
+    padding: 15px 10px;
+}
+
+.km_parties_desc .km_leftinfo_detail {
+    padding: 0px;
+}
+.km_col_6.km_parties_desc {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.km_party_rooms_single h2, .km_party_rooms_single h3, .km_party_rooms_single h4 {
+    margin-left: 0px;
+}
+.km_party_grid span {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+}
+.km_party_grid h4 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+.km_parties_included span {
+    line-height: 26px;
+}
+.km_parties_included {
+    font-size: 14px;
+    /* line-height: 20px; */
+}
+.km_party_grids {
+    display: grid;
+    gap: 10px;
+    margin: 15px 0;
+    grid-template-columns: repeat(5,1fr);
+}
+.km_party_grid {
+    border-radius: 20px;
+    cursor: pointer;
+    min-height: 130px;
+    width: 100%;
+    position: relative;
+    background-blend-mode: overlay;
+    background-size: cover!important;
+    color: #fff;
+    padding: 10px 15px;
+}
+/*Party Widget style ends*/
+.km_featured_single {
+    position: relative;
+    margin: 10px 5px;
+    min-height: 200px;
+    overflow: hidden;
+}
+.km_session_group {
+    text-align: center;
+    font-weight: bold;
+}
+.km_featured_session_img img {
+    width: 100%;
+    height: 246px;
+    object-fit: cover;
+    position: relative;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.km_package_single .km_featured_session_img img {
+    height: auto;
+}
+
+.km_featured_seats {
+    position: absolute;
+    background: red;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 5px;
+    top: 5px;
+    left: 5px;
+}
+.km_featured_date, km_featured_time {
+    display: inline-block;
+    width: 100%;
+}
+/* coulmns */
+.layout_1_columns {
+    width: calc(100% - 10px);
+}
+.layout_2_columns {
+    width: calc(50% - 10px);
+}
+.layout_3_columns {
+    width: calc(33.33% - 10px);
+}
+.layout_4_columns {
+    width: calc(25% - 10px);
+}
+.layout_5_columns {
+    width: calc(20% - 10px);
+}
+
+.layout_6_columns {
+    width: calc(16.66% - 10px);
+}
+
+/** New Css **/
+.km_featured_session_img {
+    position: relative;
+    overflow: hidden;
+}
+.km_calander_div .ui-datepicker {
+    margin: 0 auto;
+    width: 100%;
+}
+.km_featured_session_img::after, .km_package_img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.km_featured_sessions .km_featured_session_content {
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}
+.km_featured_sessions  h3.km_featured_session_title {
+    font-weight: 800;
+    font-size: 23px;
+    margin-top: 12px;
+}
+.km_common.km_featured_ageSeat span {
+    border: none;
+}
+.km_featured_ageSeat {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #e2e2e2;
+}
+.km_featured_session_widget span {
+    font-weight: 400;
+    font-size: 15px;
+    border-bottom: 1px solid #e2e2e2;
+    border-radius: 0;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 8px 0px; /*flex-wrap: wrap;*/
+}
+.km_featured_session_title {
+    font-weight: bold;
+}
+.km_featured_sessions  span.km_featured_time {
+   /* font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 16px;*/
+}
+.km_activity_alternate .km_single_featured_activity:nth-child(2n) .km_activity_row {
+    flex-direction: row-reverse;
+}
+.km_activity_meta:nth-child(1n) {
+    padding-left: 0px;
+}
+.km_activity_meta:nth-child(2n) {
+    padding-right: 0px;
+}
+.km_featured_sessions .km_featured_btns>a {
+    margin-bottom: 10px;
+    transition: .3s;
+    border-radius: 3px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 5px 10px !important;
+}
+span.km_featured_availspots.km_alert_red {
+    color: #e50000;
+}
+.km_featured_sessions .km_featured_btns  a.km_btn.km_learn_more_btn:hover, .km_featured_sessions .km_featured_btns  a.km_btn.km_feature_purchase_btn:hover {
+    background-color: transparent;
+    color: #000000;
+}
+.km_featured_sessions .km_featured_btns {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:15px;
+}
+
+
+
+/*Membeshipcss 25-aug-2021 start*/
+
+
+.km_featured_session_img.membership_session:after {
+    background: none;
+    height: 0;
+}
+span.km_featured_membershipsession_tilte {
+    font-size: 20px;
+    margin: 9px 77px;
+    font-weight: 600;
+}
+/*.km_featured_membershipsession_content {
+    text-align: center;
+}*/
+span.km_mermbership {
+    display: block;
+    margin: 0 auto !important;
+    padding: 0px auto;
+    line-height: 1.6em;
+}
+.km_featured_membershipsession_content a.km_btn.km_feature_purchase_btn:hover {
+    background: #236db5;
+}
+.km_membership_purchase_content {
+    display: inline-flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    align-items: center;
+}
+.km_membership_purchase_content .membership_input_wrap span {
+    width: 100%;
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+    color: #000;
+}
+.km_gift_msg .sendername {
+    font-style: italic;
+    font-weight: 600;
+    text-align: right;margin-bottom: 0px;
+}
+.km_membership_purchase_right_container .km_giftcard_content{
+    font-family: cursive;
+}
+.km_membership_purchase_content input[type="text"] {
+    width: 100%;
+    border: solid 1px #e2e2e2 !important;
+    color: #000000;
+    box-sizing: border-box;
+    border: 1px solid #f2f2f2;
+    border-radius: 6px;
+    /*background-color: #F2F2F2;*/
+    line-height: 14px;
+    height: 46px;
+    padding: 4px 8px!important;
+    -webkit-appearance: none;
+    margin-bottom: 12px;
+}.km_merchandise_card {
+    margin-top: 5px;
+}
+.membership_input_wrap {
+    width: 100%;
+    display: flex; grid-gap: 15px;
+    justify-content: flex-start;
+}
+.membership_input_wrap span.savecheckbox {
+    width: 100%;
+    font-size: 13px;
+    padding-left: 24px;
+}
+
+.km_package_modal span.savecheckbox{
+    padding-left: 0px;
+}
+a.km_btn.membership_purchase_button {
+    margin: 20px 0px;
+}
+.km_featured_membershipsession_content {
+    text-align: center;
+    padding-top: 20px;
+}
+.membership_section .km_featured_btns {
+    margin: 15px;
+}
+.membership_section {
+    padding: 10px 0px;
+}
+.km_col_6.membership.km_login_module:after {
+    display: none;
+}
+input.savecardcheck {
+    margin: 0px 10px 0px 0px;
+    vertical-align: text-top;
+}
+
+span.km_mermbership_title.purchase_model h3 {
+    font-weight: 600;
+}
+
+/* .km_payment_wrap > div {
+    padding: 2px;
+} */
+.km_row.km_giftlogo_content {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    flex-direction: inherit;
+    padding: 0px 0px 10px;
+}
+
+.km_modal_content .km_membership_purchase_model{
+  padding: 0px 0 !important;
+}
+
+.km_gift_seaction_head {
+    font-size: 17px;
+    margin: 0px 0px 15px;
+    text-align: left; text-transform: unset;
+}
+.km_giftrecipientoption {
+    /*display: flex;
+    gap: 10px;*/
+    margin-bottom: 15px;
+}
+
+.km_gift_frm_field{text-align: left;}
+  .km_membership_purchase_content .km_col_12.km_membership_input_wrap {
+    padding: 0;
+}
+.km_col_12.km_merchandise_card .km_payment_wrap > div {
+    padding-left: 0;
+}
+/*Membeshipcss 25-aug-2021 end*/
+
+/*Packages Widget Design*/
+.km_package_single {
+    list-style: none;
+    border: 0px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    margin: 20px 0;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 20px 20px;
+    background: none;
+}
+.km_package_meta span {
+    display: block;
+}
+.km_packages_section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.km_package_Heading_content {
+    display: flex;
+    justify-content: space-between;
+}
+.km_package_btns {
+    /*display: unset;*/
+}
+/*Packages Widget Design ends*/
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .layout_1_columns, .layout_2_columns, .layout_3_columns, .layout_4_columns, .layout_5_columns, .layout_6_columns {
+        width: calc(50% - 10px);
+    }
+}
+@media only screen and (min-width:100px) and (max-width:767px) {
+.km_row.km_activity_row .km_col_7>div .km_act_heading {
+    padding: 8px 0;
+}
+.km_upcomming_sessions {
+    grid-template-columns: repeat(1,1fr) !important; margin-bottom: 10px;
+}.km_activity_pu_btn {
+    margin-top: 0px !important;
+}.km_row.km_activity_row .km_col_7>div {
+    margin-bottom: 14px !important;
+}
+/*.km_row.km_activity_row .km_col_7>div{margin-bottom: 10px;}*/
+.km_leftinfo_detail { margin-bottom: 10px;}
+    .layout_1_columns, .layout_2_columns, .layout_3_columns, .layout_4_columns, .layout_5_columns, .layout_6_columns {
+        width: 100%;
+    }
+    .km_membership_purchase_content .membership_input_wrap {
+    display: block;
+    width: -webkit-fill-available;
+    /* margin: 0 16px; */
+    padding: 0;
+    }
+
+    .km_membership_purchase_content .km_col_12.km_membership_input_wrap {
+      padding: 0;
+      }
+    span.km_mermbership {
+    padding: 0px 25px;
+    margin: 0 auto !important;
+    }
+    span.km_featured_membershipsession_tilte {
+    margin:0;
+    }
+    input.savecardcheck {
+        margin: 0px 8px 0px 0px;
+    }
+
+    .km_giftcard_content {
+     margin: 10px 0px;
+     text-align: center;
+  }
+  .km_gift_price, .km_featured_giftcard_content {
+    text-align: center;
+  }
+    .km_gift_logo.km_col_6 {
+      width: 100%;
+      max-width: 300px;
+     display: -webkit-inline-box;
+  }
+
+  .km_gift_price {
+      margin: 16px 0px;
+  }
+
+}
+/* calendar*/
+
+#km_events_calendar .fc-toolbar {
+    display: block;
+}
+
+/* zoom in */
+.km_zoom-in .km_featured_session_img img{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.km_zoom-in:hover .km_featured_session_img img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* zoom out */
+.km_zoom-out .km_featured_session_img img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.km_zoom-out:hover .km_featured_session_img img{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+/* blur css effect */
+.km_blur:hover .km_featured_session_img img {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+/* slide */
+.km_slide .km_featured_session_img img{
+    margin-left: 30px;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.km_slide:hover .km_featured_session_img img{
+    margin-left: 0;
+}
+/* rotate */
+.km_rotate .km_featured_session_img img{
+    -webkit-transform: rotate(15deg) scale(1.4);
+    transform: rotate(15deg) scale(1.4);
+}
+.km_rotate:hover .km_featured_session_img img{
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+}
+
+/* flashing */
+.km_flashing:hover .km_featured_session_img img{
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: km_flash 1.5s;
+}
+@-webkit-keyframes km_flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes km_flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Shine */
+.km_shine .km_featured_session_img img {
+    position: relative;
+}
+.km_shine .km_featured_session_img::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+.km_shine:hover .km_featured_session_img::before {
+    -webkit-animation: shine .75s;
+    animation: km_shine .75s;
+}
+@-webkit-keyframes km_shine {
+    100% {
+        left: 125%;
+    }
+}
+@keyframes km_shine {
+    100% {
+        left: 125%;
+    }
+}
+
+/* Circle */
+.km_circle .km_featured_session_img {
+    position: relative;
+}
+.km_circle .km_featured_session_img::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255,255,255,.2);
+    border-radius: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.km_circle:hover .km_featured_session_img::before {
+    -webkit-animation: circle .75s;
+    animation: circle .75s;
+}
+@-webkit-keyframes circle {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+@keyframes circle {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+.elementor-widget-container .km_heading.center {
+    text-align: center;
+}
+
+.elementor-widget-container .km_heading.left {
+    text-align: left;
+}
+.elementor-widget-container .km_heading.right {
+    text-align: right;
+}
+
+
+/* Activities widget */
+.km_act_heading {
+    display: block;
+}
+.km_single_featured_activity {
+    position: relative;
+}
+.km_activity_description span {
+    width: 100%;
+    /*display: inline;*/
+}
+.km_activity_daily_routine span, .km_activity_bringing_needs span {
+    white-space: break-spaces;
+}
+.km_activity_available_dates {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.km_discount_lable {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center !important;
+    margin: 3px 0px;
+    color: green !important;
+}
+.km_calander_div .ui-datepicker-inline.ui-datepicker {
+    position: relative !important;
+    top: 0 !important;
+    transform: translate(0) !important;
+}
+.km_activity_available_dates .km_icon_wrapper {
+    margin-left: 20px;
+}
+.km_activity_meta {
+    flex-wrap: wrap;
+}
+.km_activity_meta {
+    flex-wrap: wrap;
+}
+
+.ui-state-highlight a {
+    background-color: #236db5!important;
+    color: #fff !important;
+        border-radius: 5px;
+}
+
+/*Giftcard widget */
+#fieldday_merchandise_form label {
+    font-weight: 500!important;
+    font-size: 15px;
+    display: inline-block;color: #000;
+}
+.km_single_giftdesign {
+    padding: 0 8px;
+}
+.km_gift_designs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 0px 0 15px;
+}
+
+span.km_gift_value, .km_sendoption_value {
+    background: #fff;
+    border-radius: 3px;
+    border-color: #e2e2e2;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 9px;
+    vertical-align: middle;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/*24-dec-2021*/
+.km_membership_purchase_content .km_col_12.km_merchandise_card {
+    padding: 0;
+}
+.km-gift-card-input span#email input, .km-gift-card-input span#phone_number input {
+    height: 42px;
+}
+/* Gift CArd Style */
+.km-gift-card-input, .km-gift-card-input input { width: 100%; display: block;}
+/* Placeholder color */
+.km_giftrecipientoption input::placeholder {color: #333; opacity: 1;}
+.km_giftrecipientoption input:-ms-input-placeholder {color: #333; }
+.km_giftrecipientoption input::-ms-input-placeholder {color: #333; }
+
+.km_single_giftdesign.selectedCartItem { border: 1px solid #e77600; padding: 0px; margin: 0 5px;}
+img#gc-mini-picker-design-swatch-image-1 { display: block;}
+.km_single_giftdesign { /*border: 2px solid gray;*/ margin: 0 5px; padding: 0px; }
+span.km_gift_value.selectedCartItem, span.km_sendoption_value.selectedCartItem { border: 1px solid #e77600; }
+.km_gift_perview_container { color:#000; moz-box-shadow: 0 4px 10px -3px #ddd; -webkit-box-shadow: 0 4px 10px -3px #ddd; box-shadow: 0 4px 10px -3px #ddd; border-collapse: separate; border-radius: 5px; border: 1px solid #e2e2e2; cursor: pointer; padding: 5px; background: #fff; width:300px;}
+.km_single_giftcard .km_gift_logo img { padding-right: 15%; border-right: 1px solid #ddd;}
+img.km_gift_image { width: -webkit-fill-available;}
+.km_giftcardmsgcontainer {
+    text-align: center;
+    padding: 5px 0px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.km_membership_purchase_content.km_giftCardmodel.km_row { flex-direction: inherit;}
+.km_membership_purchase_right_container.km_col_6 { margin: 0px auto;}
+.km_giftcardcheckout_content {display: block; width: 100%;}
+.km_giftcard_content {display: inline-grid;/* width: 100%;*/}
+.km_gift_perview_container {float: right;}
+.purchasebutton_container {padding: 0px 0 15px;}
+.km_giftCardmodel.km_row { align-items: flex-start;}
+.km_membership_purchase_right_container { padding-top: 30px;}
+.km_giftCardmodel .km_card_type { top: 43px; right: 10px; height: 25px; border-radius: 5px;}
+.km_giftCardmodel .km_giftcardcheckout_content { padding: 0px 10px 10px 10px; }
+.km_giftCardmodel .km_membership_purchase_content input {background: #fff;}
+.km_giftCardmodel .km_merchandise_user .km_col_12.km_field_wrap {width: 50%;}
+.km_giftCardmodel .field_card_number {padding-left: 0 !important;}
+span.km_gift_username {text-transform: uppercase; font-weight: 600;}
+.km_giftCardmodel .km_giftcard_content span {width: 100%;display: block; border-bottom: 1px solid #ccc;  padding: 15px 0;     font-size: 15px;
+    line-height: 18px;}
+.km_giftCardmodel .km_giftcard_content span:first-child{border: 0; padding: 5px 0px;}
+.km_giftCardmodel .km_giftcard_content span:last-child{border: 0;}
+.km_giftCardmodel .km_giftcard_content {width: 100%;}
+span.km_gift_msg.purchase_model .msguser {
+    margin-top: 0px;
+}
+.km_giftCardmodel .km_merchandise_card ,.km_giftCardmodel .km_merchandise_user{ width: 100%;     padding-left: 0px;}
+.km_giftCardmodel .km_col_12.km_field_wrap { padding-left: 0px;}
+.km_giftCardmodel .km_row { flex-direction: column; }
+.km_single_giftdesign h3.km_giftcard_title, h3.km_giftcard_title_single{ margin: 0; }
+.km_single_giftdesign img { height: 80px; object-fit: cover; }
+.km_membership_purchase_content input {background: #fff !important;}
+.km_giftCardmodel .membership_input_wrap span.savecheckbox{padding: 10px 0px !important;}
+.km_giftCardmodel .km_field_wrap fieldset > input {border-radius: 6px;}
+.km_giftcompany .km_activity_img img {padding-right: 15%; border-right: 1px solid #ddd; padding-top: 8px;}
+.km_row.km_giftcompany {padding: 10px 0px;}
+.km_single_giftcardpopup .km-gift-card-input input, .km_single_giftcardpopup .km-gift-card-input textarea { font-size: 15px; padding: 10px 5px;  border: 1px solid #e2e2e2;    background: #fff !important; }
+input#km_gift_custom_amount {padding: 0; width: 114px; border: 0;outline: none;}
+/* 15-12-2021 */
+.km_list_giftcard {background: #fff;}
+.km_giftdesign_slide.slick-slide img {min-height: 230px;  border-radius: 10px;width: 100%; object-fit: cover;}
+.km_giftCardmodel .field_card_exp_year,.field_card_cvv {padding-right: 0 !important;}
+.km_giftCardmodel .field_card_exp, .km_giftCardmodel .field_card_number {padding-left: 0 !important;}
+.km_giftCardmodel .field_card_holdername{padding: 0 !important;}
+.km_giftCardmodel a.km_btn.giftcard_purchase_button {width: fit-content;display: inline-block;}
+.km_giftCardmodel .membership_input_wrap {display: flex; flex-direction: row; width: 100%; margin: 0;  grid-gap: 15px;}
+.km_giftdesign_slide.slick-slide::before {position: absolute; width: 100%; height: 100%; content: ""; opacity: 0.2;}
+.km_giftCardmodel span.km_mermbership_title h3 {margin: 8px 0 8px;font-size: 17px;}
+.km_giftCardmodel .km_pay_button .membership_input_wrap {flex-direction: column;grid-gap: 0;}
+.without-login .km_field_wrap:first-child {width: 100% !important;padding: 0;}
+.without-login .km_field_wrap:nth-child(2) {padding-left:0;}
+/* .without-login .km_field_wrap label:not(.km_radio_wrap) {padding: 10px 0 8px;} */
+.km_activity_alternate .km_list_giftcard:nth-child(2n) .km_giftcard {flex-direction: row-reverse;}
+
+@media only screen and (min-width:100px) and (max-width:767px) {
+    .km_left_meta .km_listing{display: block!important;}
+    .km_parties .km_activity_description,.km_partiesoptions{width: 100% !important;}
+    .km_party_grids {grid-template-columns: repeat(2,1fr)!important;}
+    .km_partiesoptions{grid-template-columns: repeat(1,1fr)!important;padding-bottom: 26px;margin-top: 20px;}
+    .km_membership_purchase_content.km_giftCardmodel.km_row { flex-direction: column;flex-flow: wrap-reverse;  }
+    .km_gift_perview_container { float: none !important; margin: 10px 0px; width: auto;}
+    .km_giftcompany .km_activity_img img {border: 0px;}
+    .km_membership_purchase_right_container { padding-top: 40px; border-top: 1px solid #d8d8d8; margin-top: 30px !important;}
+    .membership_input_wrap span.savecheckbox, .km_giftCardmodel .membership_input_wrap span.savecheckbox, .km_giftCardmodel .membership_input_wrap {padding: 0px}
+    .km_giftCardmodel .km_payment_wrap {display: block;}
+    .km_giftCardmodel .membership_input_wrap {display: flex;flex-direction: column; width: 100%; margin: 0;}
+    .km_giftCardmodel a.km_btn.giftcard_purchase_button {max-width: 150px;  text-align: center; margin: 0;}
+    .km_giftCardmodel .km_col_12.km_field_wrap {padding: 0 10px 0px 0;}
+}
+@media only screen and (min-width:768px) and (max-width:1024px) {
+  .km_giftCardmodel .membership_input_wrap {display: flex; flex-direction: column; width: 100%; margin: 0;}
+  .km_giftCardmodel a.km_btn.giftcard_purchase_button {max-width: 150px;  text-align: center; margin: 0;}
+  .km_giftCardmodel .km_col_12.km_field_wrap {padding: 0 10px 0px 0;}
+}
+
+/*giftCard css 06-dec-2021 end*/
+
+.km_leftinfo_detail{
+    font-size: 15px;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 15px;
+}
+.km_featured_session_img {
+    width: 100%;
+}
+
+.km_left_meta {
+    border-bottom: 1px solid #ccc;
+    width: 90%;
+    padding: 15px 0;
+    text-align: left;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 16px;
+}
+.km_left_meta i {
+    padding-right: 10px;
+}
+.km_left_meta .km_activity_text.km_discount_lable {
+    border: 0px;
+    text-align: left !important;
+    line-height: 22px;
+}
+.km_left_meta .km_listing {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 15px;
+    margin: 0; padding: 0;
+}
+.km_left_meta .km_listing li {
+    list-style: none; line-height: 20px; display: flex;font-weight: 400;margin-left: 0px;
+}
+.km_left_meta .km_listing span {
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 15px;
+}
+.km_sess_head {
+    margin: 0 0 10px;
+    display: block;
+    line-height: 16px;
+}
+.km_left_meta:last-child {
+    border: 0;
+    padding-bottom: 5px;
+}
+.km_activity_data {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+.km_activity_row .km_activity_description {
+   /* padding-bottom: 15px;*/
+}
+.km_discounts span {
+    float: left;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin: 0 5px 0 0;
+    text-transform: capitalize;
+}
+.km_activity_row .km_col_7 {
+    /* border: 1px solid #e2e2e2; */
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+.km_row.km_activity_row .km_col_7>div:not(:empty):not(:last-child):not(:empty):not(:first-child) {
+    border-top: 1px solid #ccc;
+    /*padding: 15px 0px;*/
+}
+.km_activity_data:empty {
+    border-top: 1px solid #e1e1e1;
+}
+.km_activity_data > div {
+    border: 1px solid #ededed;
+    padding: 10px;  line-height: 26px;  
+}
+ul.km_policy_terms {
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+ul.km_policy_terms li {
+    list-style: none; font-size: 15px; margin-left: 0px;
+}
+
+.km_activity_pu_btn {
+   /* padding-top: 15px;*/
+}
+.km_activity_policy {
+   /* padding-top: 15px;*/
+}
+.km_row.km_activity_row .km_col_7>div:first-child .km_act_heading {
+    padding-top: 0px;
+}
+span.km_activity_text {
+    line-height: 24px;
+}
+ul.km_policy_terms li i.fa-check {
+    padding-right: 5px; font-size: 13px;
+}
+
+.km_published_sessions {
+    /*display: flex;
+    align-items: center;
+    column-gap: 10px;*/
+}.km_activity_row .km_col_7 .km_act_heading {
+    font-size: 17px; 
+}
+.km_row.km_activity_row .km_col_7>div{
+    line-height: 28px;     margin-bottom: 0px; padding-bottom: 15px;
+}.km_row.km_activity_row .km_col_7>div .km_act_heading {
+    padding: 12px 0px;
+}
+.km_row.km_activity_row {
+    font-size: 15px;
+    line-height: 24px!important;
+    box-shadow: 0px 0px 10px #e9e9e9;
+    border-radius: 10px;
+    padding: 20px 10px;
+}.km_session_prices span:not(:last-child):after {
+    content: "or";
+    padding: 0px 5px;
+    font-weight: 500;
+    position: relative;
+}.km_session_prices span {
+    border: 0px;
+    display: inline-block;
+    padding: 0px;
+}.km_session_prices {
+     /*border-bottom: 1px solid #e2e2e2;*/
+}.km_featured_session_widget .km_featured_btns {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}.km_session_location {
+    display: flex;
+    align-items: center;
+}.km_featured_session_content i {
+    padding-right: 10px;
+}.km_featured_session_widget h3.km_featured_session_title{
+    margin-left: 0px;
+}span.km_session_location a {
+    color: inherit;
+}.km_featured_session_widget .km_featured_btns>a {
+    margin-bottom: 0px;
+}.km_featured_date, .km_featured_date .km_date_p {
+    display: flex;
+    align-items: center;
+}.km_featured_date {
+    gap: 7px;
+}span.km_featured_date span, span.km_featured_time span {
+    border: 0px;
+    padding: 0px;
+}.km_upcomming_sessions {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px; align-items: center; margin-top: 10px;
+}.km_upcomming_sessions .km_session_single_item {
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+    border-radius: 5px;
+}.km_upcomming_sessions .km_session_single_item>div:not(:last-child){
+    border-bottom: 1px solid #ccc;
+    padding:10px 0;
+}.km_upcomming_sessions .km_session_single_item {
+    font-size: 14px; line-height: 22px;
+}.km_upcsession_meta {
+    display: flex;
+    justify-content: space-between;
+}.km_upcomming_sessions i {
+    padding-right: 5px;
+}.km_upcomming_sessions a {
+    color: unset;
+}.km_upcsession_title {
+    font-weight: 600; text-shadow: 0px 1px #d5d0d0;
+}.km_more_upcomming span {
+    text-transform: capitalize; margin-left: 0;
+}.km_activity_pu_btn a {
+    margin-left: 0px;
+}.km_additionalcharge_item span {
+    width: auto !important;
+}.km_activity_pu_btn {
+    margin-top: 15px;
+}.km_elem_single_session  h3.km_featured_activity_title {
+    padding: 20px 0px 5px 0px;
+}.km_activity_description p {
+    margin-bottom: 0px;
+}

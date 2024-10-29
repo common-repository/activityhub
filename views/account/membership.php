@@ -1,0 +1,1 @@
+<h3><?php _e('MY MEMBERSHIP', 'fieldday'); ?></h3>

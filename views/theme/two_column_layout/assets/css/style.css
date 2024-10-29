@@ -1,0 +1,5795 @@
+.select2-drop.select2-drop-above.select2-drop-active,.select2-drop {
+    z-index: 900000 !important;
+}
+.km_field_wrap fieldset {
+    border: none;
+    margin-right: 15px;
+}
+.km_plans_btn {
+    font-size: 13px;
+}
+.km_provider_sessions {
+    padding: 10px;
+}
+.km_table td,
+.km_table th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.km_table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.km_padding_10 {
+    padding: 10px;
+}
+.km_delete_participant:hover {
+    color: #ff0000;
+}
+.km_delete_participant {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: #fd7e14;
+    padding: 3px 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+.km_padding_20 {
+    padding: 20px;
+}
+
+.km_padding_30 {
+    padding: 30px;
+}
+
+.km_session_name {
+    border-right: 1px solid #e2e2e2;
+    /*background: #f5f5f5;*/ text-align: left !important;
+    padding: 20px 15px !important;
+    width: 25%; border-radius: 0 !important;
+}
+.km_session_date {
+    width: 15%;
+    border-right: 1px solid #e2e2e2;
+}
+.km_session_time {
+    width: 25%;
+    border-right: 1px solid #e2e2e2;
+}
+.km_session_price {
+    width: 10%;
+    border-right: 1px solid #e2e2e2;
+}
+.km_session_agegrp {
+    width: 10%;min-width: unset !important;
+    text-align: center;
+    padding: 0 0px !important;
+}
+.km_session_actions {
+    width: 15%;
+    /*text-align: right !important;*/
+}
+
+.km_term_condition .parsley-required {
+    color: #ff0000;
+}
+
+.km_update_phone {
+    margin-bottom: 20px;
+}
+
+select.km_date_month {
+    margin: 0px 10px;
+}
+
+.km_dob_wrap {
+    display: flex;
+}
+
+.km_dob_wrap select {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: solid 1px #d8d8d8;
+}
+
+.km_thankyou_message {
+    padding: 15px
+}
+
+.atc_session_detail {
+    padding: 0px;
+    margin: 0px;
+}
+
+.atc_success_left {
+    padding: 0px 30px;
+}
+
+.atc_session_detail li {
+    list-style: none;
+    font-size: 20px;
+}
+
+p.atc_help_text {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}
+
+li.atc_succ_session {
+    font-size: 30px;
+}
+
+.km_session_date,
+.km_session_price,
+.km_session_time,
+.km_thankyou_page {
+    text-align: center
+}
+
+.km_session_day {
+    border: 1px solid #e2e2e2;
+    border-radius: 16px;
+    padding: 2px 4px;
+    font-size: 10px;
+    margin: 0px 2px;
+    text-align: center;
+    background: #e2e2e2;
+    cursor: default;
+    position: relative;
+}
+
+.km_tooltip {
+    position: relative;
+}
+
+.km_tooltip i {
+    position: absolute;
+    z-index: 9999;
+    top: -20px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    left: 0px;
+    color: #fff;
+    font-style: normal;
+    left: -20px;
+    max-width: 300px;
+    min-width: 75px;
+}
+
+.km_session_days_wrap {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.km_session_grid .km_session_days_wrap {
+    justify-content: flex-start;
+}
+
+.km_day_active {
+    background: #F0F8FF;
+    border-color: #87CEFA;
+}
+
+.km_default_authpickup p {
+    margin: 0px;
+    padding: 3px 0px;
+}
+
+.km_default_authpickup {
+    border: 1px solid #e2e2e2;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.km_authpick_check {
+    color: #fff;
+}
+
+.km_default_pickman {
+    font-size: 12px;
+}
+
+.km_authpick_check_wrap {
+    height: 50px;
+    background: #147B8D;
+    width: 36px;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+.km_sessions_list {
+    padding: 0;
+    margin: 0
+}
+
+.km_radio_wrap input[type="radio"] {
+    margin-bottom: 15px;
+}
+
+.km_col_4.km_school_grades,
+.km_col_4.km_school_tracks {
+    float: left;
+}
+
+.session_seats {
+    font-size: 12px;
+}
+
+span.session_name {
+    font-size: 18px;
+}
+
+.activity_title,
+.session_age_group,
+.km_merchandise_days_val,
+.km_merchandise_expire_date,
+.km_session_year {
+    display: inline-block;
+    width: 100%;
+    color: #9b9b9b
+}
+
+.km_flash {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center
+}
+
+.km_hidden {
+    display: none !important;
+}
+
+.session_name,
+.session_seats {
+    display: inline-block;
+    width: 100%
+}
+
+.text-success {
+    color: #28a745
+}
+
+
+/*.km_register_wrap:not(.km_ajax_register), .km_login_wrap:not(.km_ajax_login) {
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+    border-radius: 5px;
+}*/
+
+.km_btn_primary {
+    background: #236db5;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.km_profile_kid_med_form .form_title {
+    text-align: center;
+    background: #0052a2;
+    padding: 15px 0;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px
+}
+
+.km_profile_kid_med_form {
+    display: inline-block;
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    width: 100%;
+    margin: 10px 0
+}
+
+.km_btn_default,
+.km_gender label {
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px
+}
+
+.km_gender label {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #000;
+    text-align: left;
+    padding: 1px 29px;
+    margin: 0;
+    height: 100%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    width: 100%
+}
+
+.km_btn_primary:hover {
+    color: #fff
+}
+
+.profile-pic-upload .image-preview {
+    background: #e6e6e6;
+    width: 135px;
+    height: 135px;
+    background: #e6e6e6;
+    padding: 15px;
+    border-radius: 135px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.profile-pic-upload .image-preview .image-preview-inner {
+    border: solid 4px #ffffff;
+    background-color: #cacaca;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 96px;
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+}
+
+.iti--allow-dropdown {
+    width: 100%
+}
+
+.km_kids_form_wrap .km_single_kid_wrap {
+    margin: 10px 0 40px;
+    border-radius: 5px;
+    padding: 30px;
+    background: #f5f5f5;
+    float: left;
+    width: 100%
+}
+
+.km_single_kid_wrap {
+    border: 1px solid #eee;
+    margin: 15px 0 5px;
+    padding: 10px 15px;
+    position: relative;
+    width: 100%;
+}
+.km_modal_footer .km_required_disclaimer {
+    display: flex;
+    position: absolute;
+    width: 50%;
+}
+.km_kidform_header {
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    top: -14px;
+    max-width: 160px;
+    text-align: center;
+    left: 20px;
+}
+
+.km_kidform_header h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.km_gender,
+.km_gender label {
+    position: relative
+}
+
+.text-danger {
+    color: #dc3545
+}
+
+.text-warning {
+    color: #ffc107
+}
+
+span#km_cart_total_count {
+    position: absolute;
+    right: 0;
+    color: #FF0000;
+    font-weight: 700;
+    top: -20px
+}
+.km_cart_button {
+    margin: 5px 0px;
+}
+div#km_cart_items_wrap {
+    position: fixed;
+    background-color: #f5f5f5;
+    z-index: 9999;
+    max-width: 300px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    top: 0px;
+    right: -300px;
+    min-width: 300px;
+    height: 100%;
+    transition: 1s;
+    background-position: 50% 50%;
+    overflow: auto;
+}
+
+div#km_cart_items_wrap ul li {
+    list-style: none;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 15px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+span.cart_item_heading {
+    font-size: 18px;
+    font-weight: 400
+}
+
+div#km_cart_items_wrap ul li span.cart_item_seats {
+    display: block
+}
+
+.km_session_list_icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.km_cart_button span {
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 10px;
+    font-family: ui-sans-serif;
+}
+.km_edit_cart_item {
+    color: #007bffad;
+}
+.km_participant_form_text, .km_participant_form_notrequired_text {
+    display: flex;
+    justify-content: center;
+}
+.km_remove_cart_item {
+    color: #ff0000ad;
+}
+.fieldday_ajax_processing {
+    min-height: 100%;
+    background: url(../img/ajax_loader.gif) no-repeat;
+    background-position: center
+}
+
+.profile-pic-upload .image-preview {
+    width: 135px;
+    height: 135px;
+    background: #e6e6e6;
+    padding: 15px;
+    border-radius: 135px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.profile-pic-upload .image-preview .image-preview-inner {
+    border: solid 4px #ffffff;
+    background-color: #cacaca;
+    background-image: url(../img/profilepic-placeholder.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 96px;
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+}
+
+.profile-pic-upload label span {
+    font-size: .8125rem
+}
+
+div#km_checkoutcart_detail.fieldday_ajax_processing {
+    min-height: 300px
+}
+
+.single_icon {
+    display: inline-block;
+    margin: 0 5px;
+    position: relative
+}
+
+.km_cart_toggle {
+    position: relative;
+    cursor: pointer
+}
+
+.filter_radion_box p {
+    display: inline-block;
+    margin: 2px 0 2px 1px;
+    font-weight: 400
+}
+
+.km_session_filters,
+.km_session_list {
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    padding: 20px
+}
+
+.km_session_list {
+    padding: 0px!important
+}
+
+.km_input {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    padding-left: 10px;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.05);
+    border: solid 1px #d8d8d8;
+    background: #fff;
+}
+
+select.km_input::-ms-expand {
+    display: none;
+}
+
+.km_loader_full {
+    position: fixed;
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 99999;
+    background-image: url(../img/km_loader.svg);
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.km_error_main {
+    padding: 2%
+}
+
+.km_inline_message {
+    padding: 5px;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 3px
+}
+
+.fieldday-message {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px
+}
+
+.km_alert_message {
+    position: fixed;
+    width: 300px;
+    bottom: 10px;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    left: 10px;
+    padding: 10px;
+    background: #fff;
+    z-index: 999999;
+    display: none
+}
+
+.km_alert_success {
+    background: #d4edda;
+    color: #155724;
+    font-weight: 700
+}
+
+.km_alert_error {
+    background: #f8d7da;
+    color: #721c24;
+    font-weight: 700
+}
+
+input.km_session_type {
+    cursor: pointer
+}
+
+.km_bounce {
+    animation: shake .82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px
+}
+
+.km_single_step,
+.profile-pic-upload label input,
+i.FaCheckIcon,
+i.FaCloseIcon {
+    display: none;
+}
+
+.km_register_wrap .km_register_form label {
+    display: none !important;
+}
+
+.km_addnew_kid_dp_wrap {
+    width: 96px;
+    height: 96px;
+    display: inline-block;
+}
+
+.kid-pop-single li span:not(.km_default_avatar),
+.km_active_step,
+.km_session_info li span {
+    display: block
+}
+
+@keyframes shake {
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0)
+    }
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0)
+    }
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0)
+    }
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0)
+    }
+}
+
+._purchase_steps li .icon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 70px;
+    text-align: center;
+    margin-left: 10px
+}
+
+._purchase_steps {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
+    max-width: 1366px
+}
+
+.km_active_step .km_step_number {
+    border-color: #236db5;
+    background: #2d79c2;
+    color: #fff;
+}
+
+.km_active_step a::after {
+    background-color: #236db5!important
+}
+
+._purchase_steps li a {
+    width: 52px;
+    height: 52px;
+    border: 7px solid rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    text-align: center;
+    color: #000;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    overflow: hidden;
+    font-weight: 600;
+    padding: 0;
+    line-height: 35px;
+}
+
+._purchase_steps li a:after {
+    content: '';
+    width: calc(31% - 40px);
+    height: 10px;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 23px;
+    z-index: -1
+}
+
+.km_kids_form_wrap {
+    border-bottom: 0 solid #ccc;
+    margin: 40px 0 20px;
+    padding-bottom: 0;
+    display: flex
+}
+
+.single_kid_info {
+    height: auto!important;
+    padding-bottom: 30px;
+    display: inline-block;
+    width: auto !important;
+}
+
+.km_kids_form_wrap .fieldday_form_button {
+    width: 185px;
+    max-width: 185px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color: #66818d;
+    padding: 20px 30px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    min-height: 230px
+}
+
+.km_kids_form_wrap .fieldday_form_button img {
+    width: 100%;
+    max-width: 100px;
+    display: block;
+    padding-bottom: 10px;
+    margin: 0 auto
+}
+
+.km_kids_form_wrap span.atc_sess_title {
+    margin: 0 0 20px;
+    background: #147b8d;
+    padding: 8px 20px;
+    display: block;
+    border: 1px solid #147b8d;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase
+}
+
+.Form_Success {
+    color: #147b8d!important;
+    border-bottom: 4px solid #147b8d
+}
+
+.Form_Error {
+    color: #FF0000 !important;
+    border-bottom: 4px solid #FF0000
+}
+
+.Form_Error i.FaCloseIcon,
+.Form_Success i.FaCheckIcon {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px
+}
+
+.Form_Success i.FaCheckIcon {
+    color: #147b8d
+}
+
+.km_service_days {
+    display: block;
+    font-size: 11px;
+}
+
+.km_service_price {
+    display: block;
+}
+
+.Form_Error i.FaCloseIcon {
+    color: #FF0000;
+}
+
+.session_purchase_steps {
+    height: 130px
+}
+
+._purchase_steps li:last-child a:after {
+    display: none
+}
+
+.km_field_wrap .km_invalid_message {
+    position: absolute;
+    top: 14px;
+    right: 5px;
+    font-size: 10px;
+    display: inline-block;
+    background: #ec2662;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    z-index: 1001
+}
+
+.km_phone_input .km_auth_invalid_message {
+    right: 5px;
+    top: 10px;
+}
+
+span.custom_dob_error {
+    padding: 5px 10px;
+    right: 5px;
+    top: 16px;
+    position: absolute;
+    font-size: 10px;
+    display: inline-block;
+    background: #ec2662;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    z-index: 1001;
+}
+
+.km_auth_invalid_message {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 10px;
+    display: inline-block;
+    background: #ec2662;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    z-index: 1001
+}
+
+.km_auth_invalid_message span {
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.km_field_wrap,
+.km_single_kid_wrap,
+.parsley-required,
+.parsley-type {
+    display: inline-block
+}
+
+.parsley-agevalidate {
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.parsley-required,
+.parsley-type {
+    padding: 5px 10px
+}
+
+.km_field_wrap .has-success .km_invalid_message {
+    padding: 0!important
+}
+
+.has-error .chosen-single,
+.has-error select,
+.km_field_wrap .has-error,
+.km_field_wrap .has-error .intl-phone-container,
+.km_field_wrap .has-error .nice-select {
+    border-color: #ec2662
+}
+
+.km_field_wrap {
+    margin-right: 0;
+    position: relative;
+    /* padding: 10px 0px 0px !important; */
+    vertical-align: top;
+    float: left
+}
+
+.km_purchase_wrap {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    background: #fff;
+    padding: 30px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1366px
+}
+
+.km_save_kid {
+    padding: 10px 0 0 10px
+}
+
+.km_progress_header {
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.km_addtocart_modal .km_modal_heading {
+    text-align: left;
+}
+.km_modal_heading {
+    border-bottom: 1px solid #e2e2e2;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.km_modal_footer {
+    background-color: #fff;
+    border-top: 1px solid #e2e2e2;
+    padding: 15px;
+    text-align: right;
+    position: relative;
+    float: right;
+    width: 100%;
+}
+
+.save_medical_forms {
+    display: block;
+    max-width: 80px;
+    text-align: center;
+    line-height: 35px !important;
+    float: right;
+}
+
+.km_modal_medfor_wrap ul {
+    margin: 0px;
+}
+
+.km_modal_content {
+    max-height: 80vh;
+    padding: 20px;
+    overflow: auto !important;
+}
+
+
+.km_required_disclaimer {
+    font-size: 11px;
+    text-align: center;
+    display: inline-block;
+}
+
+.km_overlay {
+    background: rgba(0, 0, 0, .7)
+}
+
+.km_overlay2 {
+    background: rgba(0, 0, 0, .3)
+}
+
+#km_modal,
+.km_modal,
+#km_sidebar_modal {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    display: none;
+    left: 0
+}
+
+.km_sidebar_modal_alert {
+    width: 350px;
+    right: -350px;
+    position: absolute;
+    top: 0px;
+    background: #fff;
+    height: 100%;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.km_modal_alert {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: absolute;
+    max-width: 600px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    transition-duration: 0.7s;
+}
+
+.modal-large .km_modal_alert {
+    max-width: 1000px
+}
+.km-modal-medium .km_modal_alert {
+    max-width: 800px;
+}
+.logged-in .km_guest_login_wrap p {
+    padding: 5px 0 20px
+}
+
+.logged-in .km_modal_content h4 {
+    padding-bottom: 0
+}
+
+.km_popup_close {
+    position: absolute;
+    right: 10px;
+    background: #ec2662;
+    color: #fff;
+    border-radius: 50%;
+    padding: 8px 8px;
+    top: 10px;
+    text-align: center;
+    line-height: 0px;
+}
+
+.kid-pop-single {
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    display: flex;
+    height: auto;
+    align-items: center;
+    padding: 15px;
+    width: 47.9%;
+    margin: 10px
+}
+
+.km_btn:hover {
+    color: #fff;
+}
+
+.km_btn_gray {
+    background: #808080;
+}
+
+.km_btn_green {
+    background: #009900;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff !important;
+    width: 100%;
+}
+.km_text_green {
+    color: #009900;
+}
+
+.km_text_red {
+    color: #FF0000;
+}
+
+.add_to_cart_step:not(.step_1) {
+    display: none
+}
+
+.kid-pop-single li {
+    list-style: none
+}
+
+.km_kid_pic_wrapper img {
+    object-fit: cover;
+    height: 90px;
+    width: 90px
+}
+
+.kids-pop-listing .kid-pop-single .km_kid_pic_wrapper {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    overflow: hidden;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .1);
+    background-color: #cacaca;
+    background-image: url(../img/profilepic-placeholder.svg);
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+a#km_google_login {
+    background-color: #cf4332!important;
+    width: 85%;
+    margin: 0 auto 20px
+}
+
+.verify_text_wrap input[type=text] {
+    width: 10%;
+    display: inline-block;
+    text-align: center
+}
+
+.km_verification_form {
+    text-align: center
+}
+
+.km_verification_type {
+    text-align: left;
+}
+
+.km_verifcatio_hl_txt {
+    margin-left: 35px;
+}
+
+.km_verification_text {
+    text-align: left;
+}
+
+.km_icon_personal_information {
+    background-image: url(../img/personal_info.png?v=1)
+}
+
+.km_icon.km_icon_kid_information {
+    background-image: url(../img/kid_info.png?v=1)
+}
+
+.km_icon.km_icon_extra_purchase {
+    background-image: url(../img/extra_purchase.png?v=1)
+}
+
+.km_icon.km_icon_purchase_details {
+    background-image: url(../img/purchase_detail.png?v=1)
+}
+
+.km_icon.km_icon_purchase_confirmation {
+    background-image: url(../img/purchase_confirmation.png?v=1)
+}
+
+.km_active_step .km_icon_personal_information {
+    background-image: url(../img/personal_info_h.png?v=1)
+}
+
+.km_active_step .km_icon.km_icon_kid_information {
+    background-image: url(../img/kid_info_h.png?v=1)
+}
+
+.km_active_step .km_icon.km_icon_extra_purchase {
+    background-image: url(../img/extra_purchase_h.png?v=1)
+}
+
+.km_active_step .km_icon.km_icon_purchase_details {
+    background-image: url(../img/purchase_detail_h.png?v=1)
+}
+
+.km_active_step .km_icon.km_icon_purchase_confirmation {
+    background-image: url(../img/purchase_confirmation_h.png?v=1)
+}
+
+.km_step .km_icon {
+    position: absolute;
+    top: 70px;
+    margin-left: 7px;
+    width: 40px;
+    height: 40px;
+    background-size: 100%
+}
+
+.km_step .km_icon i {
+    font-size: 28px;
+    color: #333
+}
+
+.km_active_step .km_icon i {
+    font-size: 28px;
+    color: #236db5
+}
+
+#km_purchase_wrap .km_50 {
+    width: 33%;
+    padding: 5px 10px
+}
+
+.km_purchase_form_content #personal_information fieldset input[type=text],
+.km_purchase_form_content #personal_information fieldset select {
+    height: 50px!important
+}
+
+#session_purchase_infoBar {
+    margin: 100px auto 60px;
+    width: 100%;
+    max-width: 1366px
+}
+
+.km_50.km_field_wrap .km_custom_toggle_wrapper {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    height: 50px
+}
+
+#km_purchase_form {
+    padding: 70px 0;
+    background-color: #f5f5f5
+}
+
+.km_session_info {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center
+}
+
+.km_session_info li {
+    width: auto;
+    border-right: 1px solid #333;
+    padding: 0 50px;
+    line-height: 20px
+}
+
+.km_session_info li:last-child {
+    border-right: 0 solid #333
+}
+
+.login_row,
+.register_row {
+    display: flex;
+    justify-content: space-between;
+}
+.km_50 {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top
+}
+
+.social_login_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.km_facebook_wrap .km_button,
+.km_google_wrap .km_button {
+    width: 100%!important;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.km_facebook_wrap .km_button i,
+.km_google_wrap .km_button i {
+    padding-right: 10px
+}
+
+.km_guest_login_wrap p {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 5px 0 0
+}
+
+.km_guest_login_wrap .km_guest_login {
+    background: #333;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: 600
+}
+
+.km_guest_login_wrap {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 40px auto auto;
+    text-align: center;
+    background: #f5f5f5
+}
+
+.km_field_wrap input.km_input:not(.km_phone_field) {
+    height: 50px;
+width: 100%;
+display: block;
+padding-left: 15px;
+margin: 0 10px 0 0px;
+}
+
+.email_login_wrap h4 {
+    text-align: center;
+    color: #236db5
+}
+
+.km_button {
+    padding: 10px;
+    background: #236db5;
+    border-radius: 5px;
+    color: #fff!important;
+    width: 100%;
+    display: block
+}
+
+.km_button_default.km_forget_pwd {
+    text-align: right;
+    float: right;
+    color: #236db5
+}
+
+.login_page_divider {
+    border-left: 1.4px dashed #ccc;
+    display: flex;
+    height: auto;
+    align-items: center
+}
+
+.login_page_divider span {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: #f5f5f5;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-left: -17px;
+    font-weight: 700;
+    font-size: 14px;
+    top: 45%;
+}
+
+.km_signup_wrap {
+    text-align: center;
+    padding-top: 20px
+}
+
+.km_signup_wrap a {
+    color: #236db5!important;
+    font-weight: 700
+}
+
+#km_verify_submit {
+    max-width: 250px;
+    margin: 0 auto;
+    text-transform: uppercase
+}
+
+.km_modal_content fieldset .iti .km_phone_field {
+    height: 50px
+}
+
+.km_updatephone_wrap .iti__country-list {
+    white-space: normal;
+    width: 250px;
+    max-width: 250px
+}
+
+.register_row .iti {
+    width: 100%
+}
+
+#km_register_form .accept-privacy {
+    padding-top: 10px;
+    line-height: 20px
+}
+
+.km_btn_wrap {
+    display: block !important;
+    text-align: center;
+    margin: 0;
+    clear: both
+}
+
+.km_btn_wrap a.km_next_step {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 16px;
+    text-transform: uppercase
+}
+
+.atc_prev_step {
+    display: none;
+}
+
+.km_gender_wrap .km_custom_toggle_wrapper {
+    cursor: pointer;
+    align-items: center;
+    color: #000;
+    position: relative;
+    text-align: left;
+    padding: 5px 15px;
+    margin: 0;
+    height: 50px;
+    border-radius: 5px;
+    transition: all 300ms ease-in-out;
+    width: 100%
+}
+
+.km_additional_charges.km_col_6 {
+    width: 50%;
+    display: inline-block
+}
+
+.km_extrapurchase fieldset {
+    border: 1px solid #ababab;
+    padding: 0 20px 15px;
+    min-height: 300px
+}
+
+.km_extrapurchase fieldset legend {
+    width: auto;
+    border: 0!important;
+    font-size: 26px;
+    margin-bottom: 10px
+}
+
+.km_purchase_detail_single {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f4f4f4;
+    margin: 0!important;
+    height: 60px;
+    align-items: center
+}
+
+.km_additionalcharges_wrap .km_addtnl_right,
+.km_purchase_detail_single .km_addtnl_right {
+    background: #f4f4f4;
+    padding: 6px 20px;
+    font-size: 16px
+}
+
+.km_additionalcharges_wrap label.customradio,
+.km_purchase_detail_single .km_addtnl_left {
+    display: flex;
+    flex-direction: row-reverse
+}
+
+.km_additionalcharges_wrap label.customradio .km_radio_text,
+.km_purchase_detail_single .km_addtnl_left .km_radio_text {
+    padding-left: 10px;
+    font-size: 16px
+}
+
+.km_purchase_detail_single label {
+    align-items: center
+}
+
+.km_text_center {
+    display: flex;
+    justify-content: center;
+}
+
+.km_donate_description {
+    padding: 0px 10px;
+}
+
+.km_donateus_title {
+    text-align: center;
+}
+
+.km_additionalcharges_wrap .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    border-bottom: 1px solid #f4f4f4;
+    height: 60px;
+    align-items: center
+}
+
+#km_kidselection_form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.km_session_cart {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px
+}
+
+.km_card_holdername {
+    float: left
+}
+
+.km_column_wrap {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 15px
+}
+
+.km_column_wrap ul {
+    background: #f5f5f5;
+    padding: 0;
+    margin: 0 0 20px;
+    border: 1px solid #e2e2e2
+}
+
+.km_column_wrap ul li {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 12px 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between
+}
+
+.km_column_wrap ul li:last-child {
+    border-bottom: 0
+}
+
+.km_heading {
+    padding: 20px 0;
+    color: #236db5;
+    font-weight: 600;
+}
+
+
+#home {
+    padding-left: 50px
+}
+
+.km_SessionsSection {
+    padding: 30px 0 80px;
+    float: left;
+    width: 100%
+}
+
+.km_filter_form input[type=text].km_input {
+    height: 50px;
+    margin-bottom: 10px;
+    padding-left: 10px
+}
+
+.km_filter_form fieldset {
+    padding: 10px 0 0;
+    margin-bottom: 0;
+    font-size: 14px
+}
+
+.km_filter_form fieldset label {
+    font-size: 14px
+}
+
+.km_filter_form .km_radio_wrap {
+    border-bottom: 1px solid #dfdfdf;
+    line-height: 40px;
+    margin-bottom: 0;
+    font-weight: 500;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.km_session_title button {
+    background: #337ab7;
+    border: 0;
+    color: #fff;
+    padding: 10px 30px;
+    position: relative;
+    border-radius: 8px;
+    font-size: 20px
+}
+
+.km_session_title {
+    position: relative;
+    z-index: 1
+}
+
+
+
+.km_sessions_description {
+    padding: 10px 10px;
+    position: absolute;
+    width: 200px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 5px;
+    bottom: 105%;
+    left: 0;
+    display: none;
+    right: 0;
+    max-width: 300px;
+}
+
+.km_session_actions .mk_button {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px
+}
+
+.km_session_col .disabled {
+    color: #000 !important;
+    font-size: 14px;
+    padding: 13px 10px;
+    background: #f5f5f5
+}
+
+.km_field_gender .km_custom_toggle_wrapper {
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    padding: 3px 10px
+}
+
+.password-remeber {
+    clear: both
+}
+
+.km_extrapurchase {
+    margin-bottom: 40px
+}
+
+#km_register_form input.km_input,
+.km_login_form .km_input {
+    padding-left: 35px!important
+}
+
+#km_register_form input#user_phone {
+    padding-left: 50px!important
+}
+
+#personal_information .km_btn_wrap a {
+    margin-top: 40px;
+    clear: both
+}
+
+.km_topspace30 {
+    padding-top: 30px
+}
+
+.km_row {
+    width: 100%;
+    display: flex;
+    flex-direction: row
+}
+.km_row_margin {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.km_radio_wrap_filterd input {
+    visibility: hidden;
+}
+.km_filter_types {
+    display: flex;
+    align-items: center;
+
+}
+.km_radio_wrap_filterd:hover {
+    background: #1d78b0;
+    color: #fff;
+}
+.km_active_filter {
+    background: linear-gradient(to right, #303f9f, #1d78b0) !important;
+    color: #fff;
+}
+.km_radio_wrap_filterd {
+    position: relative;
+    display: flex;
+    padding-left: 20px;
+    border: 1px solid #e2e2e2;
+    padding: 12px;
+    margin: 0px 1px 0px 1px;
+    cursor: pointer;
+}
+.km_col_1 {
+    width: 8%
+}
+
+.km_col_1,
+.km_col_2,
+.km_col_3,
+.km_col_4 {
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.km_col_2 {
+    width: 16%
+}
+
+.km_col_3 {
+    width: 25%
+}
+
+.km_col_4 {
+    width: 33%
+}
+
+.km_col_5 {
+    width: 41%
+}
+
+.km_col_5,
+.km_col_6,
+.km_col_7,
+.km_col_8 {
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.km_col_6 {
+    width: 50%
+}
+
+.km_col_7 {
+    width: 58%
+}
+
+.km_col_8 {
+    width: 66%
+}
+
+.km_col_10,
+.km_col_11,
+.km_col_12,
+.km_col_9 {
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.km_col_9 {
+    width: 75%
+}
+
+.km_col_10 {
+    width: 83%
+}
+
+.km_col_11 {
+    width: 91%
+}
+
+.km_col_12 {
+    width: 100%
+}
+
+.km_medicalform_heading {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    padding: 10px 0 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 15px;
+}
+
+span.med_form_error {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: -20px;
+    font-size: 12px;
+    color: #721c24;
+    display: none
+}
+
+.km_medical_form_wrap,
+.km_term_condition p,
+.required_field label {
+    position: relative
+}
+
+.km_addtocart_modal .km_checkbox_wrap {
+    padding-left: 20px;
+}
+.km_checkbox_wrap {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 2.5;
+}
+.km_checkbox_wrap_care .km_radio_text {
+    display: flex;
+    flex-direction: column;
+    line-height: 19px;
+}
+.km_checkbox_wrap input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0
+}
+
+.km_checkbox {
+    position: absolute;
+    left: 0;
+    top: 6px;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.disabled {
+    opacity: .5
+}
+
+.km_checkbox_wrap:hover input~.km_checkbox {
+    background-color: #2196f3;
+}
+
+.km_checkbox_wrap input:checked~.km_checkbox {
+    background-color: #2196f3;
+}
+
+.km_checkbox:after,
+.km_radio:after {
+    content: "";
+    position: absolute;
+    display: none
+}
+
+.km_checkbox_wrap input:checked~.km_checkbox:after,
+.km_radio_wrap input:checked~.km_radio:after {
+    display: block
+}
+
+.km_checkbox_wrap .km_checkbox:after {
+    left: 8px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+#km_add_to_cart_form .km_radio_wrap_care {
+    line-height: 18px;
+}
+.km_service_price {
+    font-weight: 500;
+    font-size: 14px;
+}
+.km_radio_wrap {
+    display: flex;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 0;
+    cursor: pointer;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    align-items: center;
+}
+
+.km_radio_wrap input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer
+}
+
+.km_radio_wrap:hover input~.km_radio {
+    background-color: #2d79c2
+}
+
+.km_radio_wrap input:checked~.km_radio {
+    background-color: #2d79c2
+}
+
+.km_radio_wrap input:hover~.km_radio:after {
+    background-color: #2d79c2
+}
+
+.km_radio_wrap .km_radio:after {
+    top: 5px;
+    left: 5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff
+}
+
+.km_gender input[type=radio],
+.km_radio {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.km_radio {
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 50%
+}
+
+.km_gender input[type=radio] {
+    z-index: 9;
+    margin: 0
+}
+
+#kid_information .km_radio {
+    top: 7px;
+    left: 7px
+}
+
+#km_kidselection_form .km_checkbox {
+    top: 0
+}
+
+.km_progress_confirmation {
+    display: block;
+    padding: 30px 0 40px
+}
+
+.km_tab {
+    border: 1px solid #eee
+}
+
+.km_tab ul.km_address li {
+    display: block
+}
+
+.km_tab ul li:last-child,
+.km_user_menu_wrapper .km_user_avatar_wrapper .sub-menu.km_user_menu_dropdown li:last-child a {
+    border: 0
+}
+
+.km_tab ul li {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px
+}
+
+span.km_price_ {
+    font-weight: 600
+}
+
+.km_skyblue {
+    color: #21d6e0
+}
+
+.km_orange {
+    color: #ff9e0e
+}
+
+i.km_icon_confirmation {
+    font-size: 28px;
+    padding-right: 15px;
+    color: #2d79c2;
+    width: 10%;
+    text-align: center
+}
+
+.km_authorized label.km_name {
+    width: 100%;
+    display: block;
+    font-size: 18px
+}
+
+.km_authorized input.km_name {
+    height: 50px;
+    width: 100%;
+    display: block
+}
+
+.km_authorized h2,
+.km_term_condition h2,
+.km_price_breakdown h2 {
+    color: #2d79c2;
+    font-size: 26px;
+    padding-bottom: 20px
+}
+
+.km_term_condition p span {
+    padding-left: 10px;
+    font-size: 18px;
+    line-height: 26px;
+    position: absolute;
+    width: 100%
+}
+
+.km_hrline {
+    margin-top: 50px!important
+}
+
+#km_cart_items_wrap ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.km_cart_wrap {
+    clear: both;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%
+}
+
+.km_sess_credit_applied,
+.km_sess_sibling,
+.km_sess_total_price {
+    font-size: 15px;
+    padding: 2px 0;
+    color: #147b8d
+}
+
+.km_total_price_wrap .km_sess_sibling,
+.km_total_price_wrap .km_sess_total_price {
+    color: #333
+}
+
+.km_cart_item .sess_purchase_date {
+    font-size: 12px
+}
+
+.cart_sess_title {
+    font-size: 18px;
+    width: 100%;
+    display: inline-block
+}
+
+.my__purchase-details>div {
+    padding: 30px;
+    border-right: 1px solid #e6e6e6
+}
+
+.km_extra_purchase {
+    display: block
+}
+
+.km_extra_purchase .extra_pur_title {
+    margin: 0 0 5px;
+    font-size: 16px
+}
+
+.km_cart_item .my__purchase-details {
+    border: 1px solid #e6e6e6;
+    position: relative
+}
+
+.km_cart_price_row {
+    text-align: right;
+    padding: 15px 30px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.cart_price_row,
+.km_total_price_wrap {
+    text-align: right;
+    background: #fff;
+    font-weight: 500
+}
+
+.km_total_price_wrap {
+    line-height: 32px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    margin: 30px 0;
+    padding: 20px 30px
+}
+
+.km_cart_item {
+    margin-bottom: 10px;
+}
+
+
+/*.cart_price_row {
+    padding: 15px 30px;
+    border: 1px solid #e6e6e6;
+    border-top: 0;
+    display: flex;
+    justify-content: space-between
+}*/
+
+.km_cart_item .my__purchase-details>div:last-child {
+    border-right: 0
+}
+
+.close_button.remove_cart_item {
+    left: 100%!important;
+    transform: translateX(-100%) translateY(0);
+    top: 0
+}
+
+b.km_right {
+    float: right
+}
+
+.km_nodata {
+    text-align: center;
+    padding: 30px
+}
+
+.required_field label:before {
+    content: '*';
+    position: absolute;
+    right: -9px;
+    color: #FF0000;
+    font-size: 20px;
+    top: -6px
+}
+.km_field_wrap:not(.required_field)  label:before{
+    display:none;
+}
+.km_nav_link {
+    display: block
+}
+
+.image-preview,
+.preview-img {
+    align-items: center
+}
+
+.preview-img {
+    background: url(../img/dummy-man.png?v=1.0.4);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #333
+}
+
+span.km_purchase_kid_name {
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.km_auth_required {
+    text-align: center;
+    padding: 5%;
+    line-height: 3em
+}
+
+.km_single_term {
+    display: flex;
+}
+
+.km_single_term p {
+    margin-left: 10px;
+}
+
+.km_single_term i {
+    color: #147B8D;
+}
+
+.header-layout-one .site-info .site-title {
+    font-family: "Ruthie", cursive!important
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif!important
+}
+
+footer {
+    padding: 10px 0!important;
+    clear: both
+}
+
+footer .footer-inner .copyright-and-nav-row {
+    padding: 10px 0!important;
+    border-top: 0!important;
+    margin-top: 0!important
+}
+
+.km_profile_header .km_col_4 {
+    background: #0076b0;
+    padding: 0;
+    width: 100%
+}
+
+.km_profile_header .km_col_4:nth-child(2) {
+    border-left: 1px solid #419bc8;
+    border-right: 1px solid #419bc8
+}
+
+.km_profile_header .km_col_4 a {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff
+}
+
+.km_row.km_profile_header {
+    text-align: center;
+    justify-content: space-between
+}
+
+.km_profile_header .km_col_4 a:hover,
+.km_profile_header .km_col_4.km_profile_nav_active {
+    background: #1b5893;
+    color: #fff
+}
+
+.km_profile_header .km_col_4.km_profile_nav_active a {
+    color: #fff
+}
+
+#accountInfo {
+    background: #f5f5f5;
+    float: left;
+    width: 100%
+}
+
+.km_profile_sidebar {
+    padding: 0;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .1);
+    background-color: #fff;
+    max-width: 400px;
+    width: 20%
+}
+
+.km_profile_sidebar a {
+    padding: 30px 20px;
+    text-transform: uppercase;
+    position: relative;
+    color: #252525;
+    border-bottom: 1px solid #e6e6e6;
+    border-left: 5px solid #fff;
+    font-weight: 600
+}
+
+.km_profile_header a {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+.km_profile_sidebar a.km_active,
+.km_profile_sidebar a:hover {
+    background: rgba(0, 82, 162, 0.1);
+    color: #0052a2;
+    border-left: 5px solid #0052a2
+}
+
+.km_credit_filter {
+    margin: 5px 15px;
+    border: 1px solid #e2e2e2;
+    padding: 9px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.km_cred_filter_active,
+.km_credit_filter:hover {
+    background: #0076b0;
+    color: #fff;
+}
+
+.km_profile_content {
+    padding: 10px 50px;
+}
+
+.km_profile_content h3,
+.km_profile_content02 h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px
+}
+
+.km_profile_content02 h3 {
+    margin-bottom: 0;
+    width: 100%
+}
+
+.km_profile_sidebar a img {
+    width: 25px;
+    margin-right: 10px
+}
+
+.km_profile_content .profile-pic-upload label {
+    padding-right: 0
+}
+
+.km_profile_content form fieldset input[type=password] {
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .05)
+}
+
+#km_reset_password_submit {
+    display: block;
+    margin: 20px auto 0;
+    height: 50px;
+    background: #333;
+    font-size: 20px;
+    color: #fff;
+    line-height: 50px;
+    padding: 0 50px;
+    border-radius: 50px;
+    border: 0
+}
+
+#km_reset_password_form {
+    max-width: 470px;
+    margin: 0 auto;
+    width: 100%
+}
+
+.km_field_wrap .km_button,
+.profile-pic-upload label span {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    border-radius: 50px;
+    text-align: center
+}
+
+.profile-pic-upload label span {
+    border: 1px solid #1b5893;
+    margin-top: 20px;
+    font-size: 14px;
+    background: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1b5893
+}
+
+.profile-pic-upload {
+    text-align: center
+}
+
+.km_field_wrap .km_button {
+    background: #236db5;
+    color: #fff!important;
+    max-width: 200px;
+    margin: 10px auto 0;
+}
+
+.km_profile_pic_wrap {
+    padding: 0
+}
+
+.km_purchase-item {
+    display: block;
+    width: 100%
+}
+
+.km_purchase_details,
+.km_purchase_footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px
+}
+
+.km_purchase_details {
+    flex-direction: row
+}
+
+.km_purchase_id span,
+i.TabsIcon {
+    display: inline-block;
+    padding-right: 100px
+}
+
+i.TabsIcon {
+    font-size: 24px;
+    padding-right: 15px
+}
+
+.km_purchase_footer {
+    background: #f5f5f5
+}
+
+.km_purchase-item {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin: 0 0 50px;
+    border-radius: 15px;
+    overflow: hidden;
+    align-items: center
+}
+
+.km_purchase_meta {
+    border-right: 1px solid #cccc;
+    border-left: 1px solid #cccc;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center
+}
+
+.km_purchase_meta span {
+    display: block;
+    padding: 0 10px
+}
+
+.km_purchase_created_time {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    line-height: 15px
+}
+
+.km_purchase_name {
+    width: 30%
+}
+
+.km_purchase_meta {
+    width: 50%
+}
+
+.km_purchase_avatar {
+    width: 20%;
+    text-align: right
+}
+
+.km_pagination,
+.km_user_menu_wrapper {
+    display: flex
+}
+
+.km_pagination li {
+    list-style: none;
+    margin-right: 10px
+}
+
+.km_pagination li a {
+    color: #236db5;
+    border: 1px solid #236db5;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px
+}
+
+.km_pagination li a:hover,
+li.km_pagination_active a {
+    background: #236db5;
+    color: #fff
+}
+
+span.cart_seat_title {
+    display: block
+}
+
+.km_term_condition .km_checkbox {
+    top: 7px
+}
+
+
+.km_user_menu_wrapper .km_user_avatar_wrapper {
+    cursor: pointer;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+}
+
+.general-header .primary-menu-container .primary-menu>li>a {
+    padding: 25px 20px
+}
+
+.km_user_menu_wrapper .km_user_avatar_wrapper .sub-menu.km_user_menu_dropdown li a:hover {
+    background: #f5f5f5
+}
+
+.km_single_kid_main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center
+}
+
+.km_profile_content02 {
+    padding: 50px 0
+}
+
+.km_kid_controls .km_delete_kid .km_delete_icon i {
+    font-size: 22px;
+    color: #8c8c8c
+}
+
+.km_single_kid {
+    width: 22%;
+    margin: 0 17px 80px;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .05);
+    background-color: #fff;
+    position: relative;
+    border-top: 3px solid #3d4db7;
+    text-align: center;
+    height: 335px
+}
+
+.km_kid_pic {
+    position: relative;
+    left: 50%;
+    right: 0;
+    top: -54px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    overflow: hidden;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .1);
+    background-color: #cacaca;
+    background-image: url(../images/profilepic-placeholder.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+.km_add_kid_modal {
+    cursor: pointer;
+    flex-direction: column;
+    height: 335px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF0000;
+    font-size: 18px
+}
+
+.km_kid_name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4a4a4a;
+    padding: 0 0 20px;
+    margin-top: -20px;
+    display: block
+}
+
+._km_kid_meta {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px
+}
+
+.km_kid_school {
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    font-size: 16px
+}
+
+.km_kid_controls {
+    padding: 0 20px;
+    align-items: center
+}
+
+.km_kid_controls .km_btn {
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.km_add_icon.km_add_icon02 {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #ec2662;
+    color: #ec2662;
+    font-size: 40px;
+    line-height: 45px;
+    border-radius: 50%;
+    margin-bottom: 10px
+}
+
+#km_form_kid_add .km_custom_toggle_wrapper.km_gender_wrap {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+}
+
+#km_form_kid_add .km_gender label {
+    padding: 0 10px 0px 30px
+}
+
+.km_btn_wrap .km_save_kidform.km_btn_primary {
+    padding: 10px 30px;
+    display: block;
+    float: left;
+    border-radius: 50px;
+    margin: 30px auto 0
+}
+
+#km_purchase_form a.km_next_step.km_btn_primary {
+    margin: 0 10px;
+}
+
+.kid-pop-single.km_col_6 {
+    width: 100%
+}
+
+.km_kid_pic_wrapper img::before,
+i.GridIcon {
+    display: none
+}
+
+.km_custom_toggle_wrapper,
+.km_kid_controls {
+    display: flex;
+    justify-content: space-between
+}
+
+.km_search_text {
+    flex: 0 0 100%;
+    padding: 0 0 20px;
+font-size: 18px;
+font-weight: 400;
+}
+.km_session_grid #km_session_two_coloum_layout {
+    padding: 0 !important;
+}
+a.km_current_layout svg>g {
+    fill: #147b8d!important
+}
+
+a.km_session_switcher svg>g {
+    fill: #ccc
+}
+
+#km_modal_discount,
+.km_session_grid .session_seats {
+    display: block;
+}
+
+.km_session_grid {
+    padding: 20px 20px;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px
+}
+
+.km_session_grid ul.km_grid {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.km_session_grid ul.km_grid li.km_session_single_item {
+    width: 32%;
+    flex-direction: column;
+    margin: 0 15px 15px 0;
+    padding: 0;
+    overflow: hidden
+}
+
+.km_session_grid ul.km_grid li.km_session_single_item div span {
+    width: auto;
+}
+
+.year.km_session_year {
+    float: right
+}
+
+.km_session_grid .km_session_actions .mk_button,
+.km_session_grid button.disabled {
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 30px
+}
+
+.km_thumbnail {
+    padding: 0!important;
+    display: none
+}
+
+.km_session_grid .km_thumbnail {
+    display: block;
+    min-height: 300px!important;
+    height: 300px;
+    background: #dbdbdb
+}
+
+.km_thumbnail img {
+    height: 300px!important;
+    width: 100%;
+    object-fit: cover
+}
+
+.km_session_grid i.GridIcon {
+    display: inline-block;
+    padding-right: 10px;
+    color: #d2d2d2;
+    font-size: 20px
+}
+
+.km_user_menu_wrapper .km_user_avatar_wrapper .sub-menu.km_user_menu_dropdown {
+    display: none;
+    z-index: 1000;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    left: 0;
+    margin: 0;
+    top: 100%;
+    transform: translateX(-20%) translateY(0%)
+}
+
+.km_user_menu_wrapper .km_user_avatar_wrapper:hover ul.km_user_menu_dropdown {
+    opacity: 9;
+    display: block;
+    visibility: visible
+}
+
+.km_user_menu_wrapper .km_user_avatar_wrapper .sub-menu.km_user_menu_dropdown li a {
+    color: #333;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #eee
+}
+
+.km_kid_pic img {
+    height: 110px;
+    width: 100%;
+    object-fit: cover
+}
+
+.full {
+    width: 100%;
+    padding-bottom: 10px
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+#km_modal_discount .km_modal_content {
+    width: 100%;
+    background: #147b8d;
+    padding: 0 16px 30px
+}
+
+.km_Siblings_discount {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.km_discount_amount {
+    font-size: 100px;
+    font-weight: 400
+}
+
+.km_discount_per {
+    line-height: 34px;
+    padding-top: 40px;
+    font-size: 39px;
+    font-weight: 500;
+    text-align: left
+}
+
+.km_discount_amount,
+.km_discount_text {
+    color: #fff
+}
+
+.km_discount_type {
+    font-size: 39px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    max-width: 410px;
+    margin: 0 auto 15px;
+    text-align: center;
+}
+
+.km_discount_helptxt_1 {
+    font-size: 18px;
+    color: #fff;
+    text-align: center
+}
+
+.km_discount_button {
+    background: #ff7400!important;
+    border-radius: 100px;
+    line-height: 1;
+    padding: 15px 30px;
+    color: #fff!important
+}
+
+.km_discount_helptxt_2 {
+    margin: 0;
+    font-size: 13px;
+    padding-top: 15px;
+    color: #fff;
+    text-align: center
+}
+
+.close.close_before_account_text,
+.km_discount_main {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+}
+
+.km_before_account_text {
+    background: #147b8d;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 30px;
+    color: #fff;
+    z-index: 99999;
+    font-size: 18px;
+    line-height: 28px
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5
+}
+
+.close.close_before_account_text {
+    color: #fff!important;
+    font-size: 20px;
+    border: 2px solid #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center
+}
+
+.km_map_main {
+    width: 100%;
+    height: 400px;
+    float: left
+}
+
+#infoPanel {
+    float: left;
+    margin-left: 10px
+}
+
+#infoPanel div {
+    margin-bottom: 5px
+}
+
+.km_long {
+    padding-left: 0
+}
+
+.km_lat {
+    padding-right: 0
+}
+
+.Km_get_location {
+    margin: 10px 0;
+    display: inline-block
+}
+
+div#km_maps_response {
+    position: absolute;
+    text-align: left;
+    top: 0px;
+}
+
+.ui-widget-header {
+    border: 0px !important;
+    background: none !important;
+}
+
+.ui-datepicker-calendar tr th span {
+    font-size: 12px;
+    color: #236db5;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+    text-align: center !important;
+}
+
+.ui-datepicker .ui-datepicker-title select {
+    font-size: 14px !important;
+    margin: 1px 8px;
+    text-align: center;
+    border-radius: 3px;
+    width: 40%;
+    height: 30px;
+}
+
+.ui-widget-header a {
+    border: 0 !important;
+    right: 10px !important;
+    top: 5px !important;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+    left: 10px !important;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+    font-size: 14px;
+    font-weight: 600 !important;
+}
+
+.ui-datepicker {
+    padding: 0 !important;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    border-bottom: 1px solid #eee !important;
+}
+
+.ui-state-default.ui-state-active {
+    background: #236db5 !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+}
+
+#session-search-container {
+    background: #f5f5f5;
+}
+
+.select-wrapper .km_filter_heading,
+.our-program__form--type .km_filter_heading {
+    font-size: 16px;
+    padding: 10px 0 5px;
+    text-transform: uppercase;
+    color: #337ab7;
+    /* border-top: 1px solid #ccc; */
+    margin-top: 20px
+}
+
+#session-search-container label.km_radio_wrap:last-child,
+.km_session_col:last-child {
+    border: 0;
+}
+
+#session-search-container label.km_radio_wrap {
+    border-bottom: 1px solid #dfdfdf;
+    padding-left: 35px;
+    line-height: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 500;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#km_form_kid_add .km_field_wrap .km_radio_wrap {
+    border: 0;
+    height: 40px;
+    line-height: 40px;
+}
+
+#km_add_to_cart_form .km_custom_toggle_wrapper.km_gender_wrap {
+    padding: 0px 15px 0;
+}
+
+#km_kid_profile_update .km_custom_toggle_wrapper {
+    padding: 0 15px;
+}
+
+.km_custom_dropdown::before {
+    content: "\25BC";
+    font-size: 14px;
+    right: 10px;
+    top: 12px;
+    color: #337ab7;
+    position: absolute;
+}
+
+.km_custom_dropdown {
+    position: relative;
+}
+
+
+/* New Changes Style */
+
+.wrap {
+    padding: 0 !important;
+}
+
+#site-navigation ul li a {
+    text-transform: uppercase;
+}
+
+.field_card_number fieldset {
+    position: relative;
+}
+
+.km_card_type {
+    background: url(../img/cards/default.svg) no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 46px;
+    right: 20px;
+}
+
+.km_card_type.visa {
+    background: url(../img/cards/visa.svg) no-repeat;
+    background-size: contain;
+}
+
+.km_card_type.amex {
+    background: url("../img/cards/amex.svg") no-repeat;
+    background-size: contain;
+}
+
+.km_card_type.mastercard {
+    background: url("../img/cards/mastercard.svg") no-repeat;
+    background-size: contain;
+}
+
+.km_card_type.discover {
+    background: url("../img/cards/discover.svg") no-repeat;
+    background-size: contain;
+}
+
+.km_card_type.diners {
+    background: url("../img/cards/diners.svg") no-repeat;
+    background-size: contain;
+}
+
+.km_card_type.jcb {
+    background: url("../img/cards/jcb.svg") no-repeat;
+    background-size: contain;
+}
+
+.km_card_type.maestro {
+    background: url("../img/cards/maestro.svg") no-repeat;
+    background-size: contain;
+}
+
+.km_field_wrap label:not(.km_radio_wrap) {
+    display: inline-block;
+    font-weight: 400;
+}
+
+.km_field_wrap label:before {
+    right: -15px;
+}
+
+
+/* Forget password */
+
+.km_forget_password input {
+    padding-left: 35px !important;
+}
+
+i.km_forget_email_icon {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.km_forget_password fieldset {
+    position: relative;
+}
+
+
+/* Top Menu Style */
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+.sub-menu.km_user_menu_dropdown {
+    width: 150px;
+    padding: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+.km_user_avatar_wrapper {
+    overflow: visible !important;
+    position: relative;
+}
+
+.sub-menu.km_user_menu_dropdown li {
+    padding: 0 0px 0px;
+    margin: 0;
+}
+
+.sub-menu.km_user_menu_dropdown li a {
+    margin: 0;
+    padding: 10px 10px;
+}
+
+.km_user_menu_wrapper .km_user_avatar_wrapper img {
+    height: 60px !important;
+    width: 60px !important;
+    border-radius: 50%;
+    border: solid 2px #236db5;
+}
+
+
+img.km_user_dp {
+    width: 100%;
+    height: 100%;
+}
+
+.main-header__navigation__primary-menu li a::before {
+    background: none !important;
+}
+
+.km_user_menu_wrapper .km_user_avatar_wrapper .sub-menu.km_user_menu_dropdown li a:hover {
+    background: #f5f5f5;
+}
+
+.sub-menu.km_user_menu_dropdown li a:hover::before {
+    background: none !important;
+    display: none !important;
+}
+
+.km_kidform_header h3 {
+    font-size: 18px;
+}
+
+.sub-menu.km_user_menu_dropdown li {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-menu.km_user_menu_dropdown li a {
+    margin: 0;
+    padding: 10px 10px;
+}
+
+.main-header__navigation__primary-menu li a::before {
+    background: none !important;
+}
+
+div#km_cart_items_wrap ul li:last-child {
+    border: 0;
+}
+
+
+/* global popup for discount */
+
+.km_pop_heading,
+.km_pop_title,
+.km_pop_sub_title {
+    text-align: center;
+}
+
+.km_pop_heading h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.km_pop_heading h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #ff7400;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.km_pop_title {
+    padding: 10px 0 0;
+}
+
+.km_pop_title h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 0;
+    font-style: italic;
+    margin: 0px;
+}
+
+.km_pop_title h5 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.km_pop_title h3 span {
+    font-size: 26px;
+    font-weight: 900;
+    color: #ff7400;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.km_pop_title h3 {
+    font-size: 36px;
+    font-weight: 500;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.km_pop_title h4 span {
+    font-size: 28px;
+    font-weight: 400;
+    color: #ff7400;
+}
+
+.km_pop_title p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.km_pop_sub_title {
+    text-align: center;
+}
+
+.km_pop_sub_title h3 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #ff7400;
+}
+
+.km_pop_para ul {
+    padding: 0 25px;
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.km_pop_para ul li {
+    font-size: 13px;
+    color: #fff;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.km_discount_para h3 span {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.km_discount_para h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #ff7400;
+}
+
+.km_discount_para img {
+    padding: 10px 0;
+}
+
+.km_discount_para {
+    margin-top: -30px;
+}
+
+.km_discount_data {
+    max-width: 200px;
+    margin: 0 auto;
+    border: 3px dashed #fff;
+    border-radius: 10PX;
+    margin-bottom: 30px;
+}
+
+.km_global_pop_btn {
+    background: #ff7400!important;
+    border-radius: 100px;
+    line-height: 1;
+    padding: 15px 30px;
+    color: #fff!important
+}
+
+
+/* tax detail */
+
+.km_single_taxdetail {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    justify-content: space-between;
+    padding: 0px 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.km_single_taxdetail img {
+    margin-top: -10px;
+    position: absolute;
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+
+.km_single_taxdetail span {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.km_single_taxdetail span {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.km_tax_year {
+    font-size: 28px;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 30px 0px 10px;
+}
+
+.km_tax_paid {
+    font-size: 24px;
+}
+
+.km_tax_vendor {
+    background: #147b8d;
+    padding: 12px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.km_claimForm {
+    display: inline-block;
+    width: 100%;
+}
+
+.km_storecredit_wrap .km_claim_btn {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.km_center {
+    text-align: center;
+}
+
+.km_purchase_tags {
+    display: flex;
+    flex-direction: row;
+}
+
+.km_close_tag {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    background: #147B8D;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 6px;
+    border-radius: 0px 4px 3px 0px;
+}
+
+.km_active_filters .km_tags {
+    padding: 5px 30px 5px 5px;
+}
+
+.km_close_tag:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.km_tags {
+    position: relative;
+    background: #0052a2;
+    padding: 5px 10px;
+    margin: 0px 10px 5px 0px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+/* SIde BAr Style */
+
+.km_topspace {
+    padding-top: 25px;
+}
+
+.km_rokuimg img {
+    border-radius: 25px;
+    width: 100%;
+}
+
+.km_euimg img {
+    width: 100%;
+    max-width: 50px;
+}
+
+.km_demovendo h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.km_demovendo span {
+    display: block;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.km_review {
+    background: #f5f5f5;
+    width: 100%;
+    padding: 15px;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.km_review span:nth-child(2) {
+    color: #3d4db7;
+}
+
+.km_review span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.km_review_content {
+    text-align: center;
+}
+
+.km_review_content p {
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    color: #606060;
+}
+
+.km_review_content img {
+    padding-bottom: 15px;
+    width: 32px;
+    display: inline-block !important;
+}
+
+.km_review_user span {
+    font-size: 22px;
+}
+.km_activity_title {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    display: block;
+    margin: 0px;
+}
+.km_activity_overview {
+    font-size: 18px;
+    color: #606060;
+}
+
+.km_typical_day table tr td {
+    border-bottom: 1px solid #d9d9d9;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.km_typical_day table tr td span {
+    color: #515151;
+}
+
+.km_session_exte_care {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* star rating */
+
+
+/* component */
+
+.km_sess_head {
+    margin: 5px 0px;
+    display: block;
+}
+
+.km_booking_type {
+    text-align: center;
+}
+
+.km_star_rating {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 1.5em;
+    justify-content: space-around;
+    text-align: center;
+    width: 5em;
+}
+
+.km_star_rating input {
+    display: none;
+}
+
+.km_star_rating label {
+    color: #ccc;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.km_star_rating :checked~label {
+    color: #f90;
+}
+
+.km_session_booking_type .km_session_days_wrap {
+    justify-content: left;
+    margin: 5px -2px;
+}
+
+
+/* session booking types */
+
+.km_detail_bookings .km_session_booking_types {
+    justify-content: left;
+}
+
+.km_session_booking_types {
+    display: flex;
+    flex-direction: row;
+    margin-left: -15px;
+    justify-content: center;
+}
+
+span.km_book_typ_txt {
+    display: block;
+    margin: 1px 0px;
+}
+
+.km_active_filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.km_sess_date {
+    display: inline-block;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+}
+
+
+/* reviews */
+
+.km_reviews_outer h3 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 30px 0 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.km_review_user_dp {
+    margin-right: 10px;
+}
+
+.km_review_user_name {
+    display: block;
+}
+
+.km_verified_user {
+    font-size: 14px;
+    color: #1cc286;
+}
+
+.km_review_username {
+    margin-right: 7px;
+}
+
+.km_review_user_dp img {
+    border-radius: 50%;
+}
+
+.km_review_body {
+    margin: 5px 0 0;
+}
+
+.km_single_review {
+    padding: 30px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.km_review_header .km_review_date {
+    font-size: 12px;
+    color: #999999;
+}
+
+.km_review_summary_outer {
+    display: flex;
+}
+
+.km_review_left {
+    border-right: 1px solid #e2e2e2;
+    padding-right: 20px;
+}
+
+.km_review_right {
+    border-right: 1px solid #e2e2e2;
+    padding: 0px 20px 0px 20px;
+}
+
+.km_review_head {
+    display: flex;
+    flex-direction: row;
+}
+
+.km_custom_stars .km_star_yellow {
+    color: #ff8d00;
+}
+
+.km_reviews_wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.km_review_user_dp {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+span.km_review_date {
+    float: right;
+}
+
+.km_review_user_name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.km_review_user_outer {
+    display: flex;
+}
+
+.km_average_review {
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+
+/*testimonials */
+
+.km_testimonial_grid_view {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.km_testimonial_user_name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.km_testi_date {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.km_single_testimonial {
+    text-align: center;
+}
+
+.km_star_rating_wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.km_star_rating_wrap span:last-child {
+    display: block;
+    clear: both;
+    width: 100%;
+    line-height: 1;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+span.km_progress_wrap {
+    width: 200px;
+    height: 18px;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+h3.km_testimonial_summary_head {
+    font-weight: 1000;
+}
+
+span.km_progress_bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: linear-gradient(0deg, #ff8d00, #ff9900);
+}
+
+.km_single_summary {
+    display: flex;
+    align-items: center;
+}
+
+.km_single_summary>span:first-child,
+.km_review_perc {
+    display: inline-block;
+    min-width: 55px;
+    color: #0072ff;
+}
+
+span.km_review_perc {
+    padding-left: 10px;
+}
+
+.km_testimonials_reviews {
+    padding: 5px;
+}
+
+.km_testimonial_user_dp {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.km_testimonial_wrap .km_single_testimonial .km_testimonial_user {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top: 1px solid #dedede;
+    padding: 10px 0 0 10px;
+    margin-top: 10px;
+}
+
+.km_testimonial_wrap .km_testimonial_description {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+.km_testimonial_carousel .slick-list {
+    margin-left: 35px;
+}
+
+.km_testimonial_carousel ul.slick-dots li a:before {
+    font-family: eicons;
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: "\e914";
+    text-align: center;
+    opacity: .25;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-active .km_custom_dot::before {
+    opacity: 1 !important;
+}
+
+.km_testimonial_wrap .km_single_testimonial {
+    background: #eee;
+    border: 4px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.km_testimonial_wrap .km_testimonial_user_dp {
+    margin-right: 10px;
+}
+
+/*** New Login Css ***/
+.km_login_wrap {
+    background: #fff;
+    padding: 15px 15px 50px 25px;
+    min-height: 480px;
+}
+.tc_logininfo_text{
+    padding-bottom: 8px;
+    border-bottom: 2px solid #ccc;
+    margin: 0px;
+}
+.km_login_wrap h3.km_login_m_title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.km_login_wrap .login_row {
+    padding-top: 5px;
+}
+.km_login_wrap .km_register_module, .km_login_wrap .km_login_module {
+    position: relative;
+}
+.km_login_wrap .km_register_module:after, .km_login_wrap .km_login_module:after {
+    content: '';
+    background: #e5e5e5;
+    position: absolute;
+    width: 2px;
+    height: 260px;
+    top: 11px;
+    right: 0;
+}
+.km_register_module h3.km_login_m_title {
+    color: #1959c9;
+}
+.km_login_module h3.km_login_m_title {
+    color: #008000;
+}
+.km_guest_module h3.km_login_m_title {
+    color: #666666;
+}
+.km_login_m_features span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.9;
+    display: block;
+}
+.km_login_m_button a.km_toggle_register, .km_login_m_button a.km_toggle_sigh-in {
+    border: 0;
+    margin: 10px auto 10px;
+    text-align: center;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+}
+.km_login_m_button a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+.km_login_m_button .km_button_default {
+    padding: 0 !important;
+    height: 50px;
+    line-height: 50px;
+}
+.km_guest_module .km_login_m_features span {
+    color: #666666;
+}
+.km_register_form_sec i.km_user_icon {
+    top: 56px;
+}
+#g-recaptcha div {
+    transform: scale(0.9);
+    margin-left: -14px;
+}
+#g-recaptcha iframe {
+    max-width: 304px;
+}
+.km_register_module .km_auth_invalid_message {
+    top: 50px;
+}
+.km_register_module .km_phone_input .km_auth_invalid_message {
+    top: 10px;
+}
+.km_ajax_login #g-recaptcha div {
+    margin-left: -17px;
+}
+.km_login_m_button {
+    padding-top: 20px;
+}
+/* session list tabs */
+.km_session_tab, .km_session_tab_merchandise {
+    padding: 12px;
+    color: rgba(0, 0, 0, 0.87);
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 1;
+}
+.km_session_tab:hover, .km_session_tab_merchandise:hover {
+    color: #147B8D;
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+}
+.km_merchandise_days, .km_merchandise_expire {
+    color: #fff;
+}
+.km_active_tab {
+    border-bottom: 3px solid #147B8D;
+    color: #147B8D;
+}
+.km_session_tabs li {
+    margin: 0px 15px 5px 0px;
+    display: flex;
+}
+.km_session_tabs {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    border-bottom: 1px solid #e2e2e2;
+    flex-wrap: wrap;
+    line-height: 32px;
+}
+.km_tab_section:not(:first-child) {
+    display: none;
+}
+.km_tab_section {
+    padding: 10px;
+}
+/* session list tabs */
+/* media screens */
+.km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout {
+    display: block;
+}
+ul.km_sessions_list li#km_session_two_coloum_layout.km_session_single_item {
+    list-style: none;
+    border: 1px solid #e2e2e2;
+    margin: 20px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    min-height: 83px;
+    background: none;
+    background-color: snow;
+    overflow: hidden;
+    flex-wrap: wrap;
+width: 100%;
+position: relative;padding: 0 10px 0 0;
+}
+
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout:before {
+    background: none;
+
+}
+.km_btn {
+    background: #236db5;
+    color: #fff;
+    border: 0;
+    margin: 0 5px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.disabled.km_btn.km_session_btn {
+    max-width: 100% !important;
+}
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .km_btn {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 12px;
+      text-transform: uppercase;
+      /* width: 100%; */
+      text-align: center;
+}
+.km_col_9.km_shadow_right.km_session_list div#km_sessionlist_head_two_layout {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.km_col_9.km_shadow_right.km_session_list div#km_sessionlist_head_two_layout .km_session_title {
+
+     background: none !important;
+
+}
+
+
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .activity_title,
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .session_age_group,
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .km_merchandise_days_val,
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .km_merchandise_expire_date,
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .km_session_year {
+    display: inline-block;
+    width: 100%;
+    color: #9b9b9b !important;
+}
+
+
+
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout span.time.km_session_month {
+    color: #000;
+}
+
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .km_session_days_wrap {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #000;
+}
+
+.km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout span.time.km_sess_time {
+    color: #000;
+
+}
+
+
+
+
+
+.km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout span.price {
+    color: #000;
+    font-weight: 500;
+}
+
+.km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_session_col.km_session_agegrp span {
+    color: #000;
+    font-weight: 500;
+}
+
+
+
+div#km_session_search_container_two_column .km_filter_types {
+     display: block;
+}
+
+
+
+.km_col_9.km_shadow_right.km_session_list ul.km_sessions_list .km_session_day.km_tooltip:not(.km_day_active) {
+    background: 0 0;
+
+     color: #000;
+}
+
+
+.km_col_9.km_shadow_right.km_session_list .km_text_green {
+    color: #009900;
+}
+
+.km_col_9.km_shadow_right.km_session_list .km_search_text {
+    flex: 0 0 100%;
+    padding: 0 0 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.km_col_9.km_shadow_right .km_text_red {
+    color: #FF0000;
+}
+
+
+
+
+.km_session_grid ul.km_grid li.km_session_single_item {
+    width: 31%;
+    margin: 0 20px 15px 0;
+    overflow: hidden;
+}
+@media only screen and (min-width:100px) and (max-width:980px) {
+    .atc_prev_step, .km_btn_green, .km_btn_gray {
+    margin: 0 2px;
+    padding: 8px 10px;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+/*.km_kids_form_wrap {
+    flex-direction: column;
+}*/
+    .login_row,
+    .register_row {
+        display: block
+    }
+    .km_50 {
+        width: 100%
+    }
+    .login_page_divider {
+        display: none
+    }
+    .km_login_form .km_field_wrap div,
+    .km_login_form .km_field_wrap iframe {
+        width: 100%!important
+    }
+    .km_SessionsSection .km_row {
+        width: 100%;
+        display: flex;
+        flex-direction: column
+    }
+    .km_SessionsSection .km_row .km_col_9 {
+        width: 100%;
+        padding: 30px 0px!important
+    }
+    .km_SessionsSection .km_row .km_col_3 {
+        width: 100%;
+        padding: 0;
+        margin: 0 0 10px
+    }
+    .km_SessionsSection .km_row .km_col_7 {
+        padding: 0;
+    }
+    #km_session_search_keyword {
+        margin-bottom: 0px;
+    }
+
+    .km_session_actions .mk_button,
+    .km_session_col .disabled {
+        font-size: 18px;
+        padding: 8px 30px;
+        margin: 0
+    }
+    .km_profile_content {
+        padding: 50px 15px
+    }
+    .km_health_concern_form ul,
+    .km_medical_form_wrap ul {
+        padding: 10px
+    }
+    .km_medical_form_wrap .km_col_6 {
+        padding: 0
+    }
+    .km_single_kid_main {
+        display: block
+    }
+    .km_single_kid {
+        width: 100%;
+        margin: 80px 0
+    }
+    .km_add_kid_modal {
+        margin: 0;
+        height: auto;
+        padding: 50px 0
+    }
+    .km_profile_header .km_col_4 a {
+        padding: 20px 0;
+        font-size: 12px;
+        flex-direction: column
+    }
+    i.TabsIcon {
+        font-size: 20px;
+        padding-right: 0
+    }
+    .km_purchase_wrap {
+        padding: 20px 15px
+    }
+    ._purchase_steps li a::after {
+        width: calc(29% - 52px)
+    }
+    #km_purchase_form {
+        padding: 50px 20px
+    }
+    .km_kids_form_wrap .fieldday_form_button {
+        width: 100%;
+        max-width: 100%;
+        margin: 10px 0
+    }
+    #accountInfo .km_row,
+    #accountInfo.km_row {
+        flex-direction: column
+    }
+    #accountInfo.km_row .km_profile_content,
+    #accountInfo.km_row .km_profile_sidebar {
+        width: 100%;
+        max-width: 100%
+    }
+    #accountInfo .km_col_2.km_profile_pic_wrap,
+    #accountInfo .km_col_4,
+    #accountInfo .km_col_6 {
+        width: 100%
+    }
+    #accountInfo .km_col_10.km_profile_fields {
+        width: 100%;
+        padding: 0
+    }
+    .km_profile_content h3 {
+        padding-bottom: 20px;
+        margin: 0 0 30px
+    }
+    .km_purchase_meta {
+        display: block;
+        border: 0;
+        padding: 0
+    }
+    .km_purchase-item {
+        margin: 0 0 20px
+    }
+    .km_pagination {
+        flex-wrap: wrap
+    }
+    .km_pagination_main {
+        margin-bottom: 30px
+    }
+    .km_pagination li {
+        margin-bottom: 10px
+    }
+    .km_field_wrap {
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    .km_modal_alert {
+        width: 90%
+    }
+    div#km_cart_items_wrap {
+        max-width: 300px;
+        width: 300px;
+        left: auto;
+    }
+    .single_icon {
+        position: unset
+    }
+    .km_additionalcharges_wrap .form-group,
+    .km_purchase_detail_single {
+        display: block;
+        height: auto
+    }
+    .km_purchase_detail_single .km_addtnl_left {
+        flex-direction: row;
+        margin-bottom: 10px
+    }
+    .km_progress_header {
+        font-size: 24px
+    }
+    .km_purchase_meta,
+    .km_purchase_name {
+        width: 100%
+    }
+    .km_purchase_avatar {
+        width: 100%;
+        text-align: left
+    }
+    .km_purchase_meta span {
+        display: block;
+        padding: 0;
+        border: 0
+    }
+    .km_purchase_details,
+    .km_purchase_footer {
+        padding: 15px;
+        text-align: left;
+        display: block
+    }
+    .km_purchase_meta {
+        text-align: left
+    }
+    .km_purchase_id span {
+        padding-right: 0
+    }
+    #accountInfo,
+    .km_register_wrap {
+        padding-bottom: 50px
+    }
+    .km_row {
+        display: block;
+        flex-direction: column
+    }
+    .km_col_2,
+    .km_col_3,
+    .km_col_4,
+    .km_col_5,
+    .km_col_6,
+    .km_col_7,
+    .km_col_8,
+    .km_col_9,
+    .km_col_10,
+    .km_col_11 {
+        width: 100%!important
+    }
+    .km_cart_price_row {
+        flex-direction: column;
+    }
+    .cart_price_row, .km_total_price_wrap {
+    text-align: left;}
+    .km_session_days_wrap {
+        justify-content: left;
+    }
+    .km_login_wrap {
+        padding: 20px 0px 10px;
+    }
+    div#g-recaptcha div {
+        transform: scale(0.9);
+        margin-left: -16px;
+    }
+    .km_login_module {
+        padding: 10px 15px;
+    }
+    #parsley-id-5, #parsley-id-7 {
+        width: auto;
+    }
+    .km_login_wrap p.tc_logininfo_text {
+        font-size: 16px;
+        margin: 0 12px 10px;
+        text-align: center;
+    }
+    .km_login_wrap .km_login_m_features {
+        text-align: center;
+    }
+    .km_register_module .accept-privacy {
+        padding: 10px 15px 0;
+        text-align: center;
+    }
+    .km_guest_module .km_login_m_button {
+        text-align: center;
+    }
+    .km_field_wrap input {
+        height: 45px;
+    }
+    .km_login_m_button {
+        padding-top: 0;
+    }
+    .km_login_wrap .km_register_module:after, .km_login_wrap .km_login_module:after {
+        display: none;
+    }
+
+}
+@media only screen and (min-width:100px) and (max-width:980px) and (orientation:landscape) {
+    ._purchase_steps li a::after {
+        width: calc(30% - 50px)
+    }
+}
+
+@media screen and (min-width:980px) and (max-width:1300px) {
+    #km_purchase_form {
+        padding: 50px 20px
+    }
+    .km_user_menu_wrapper .km_user_avatar_wrapper .sub-menu.km_user_menu_dropdown {
+        top: 30px
+    }
+}
+
+@media screen and (min-width:1300px) and (max-width:1600px) {
+    .km_purchase_meta {
+        padding: 0 30px
+    }
+    .km_session_grid ul.km_grid li.km_session_single_item {
+        width: 31%;
+        margin: 0 20px 15px 0;
+        overflow: hidden
+    }
+    #km_purchase_form {
+        padding: 50px 20px
+    }
+}
+
+@media only screen and (min-width:100px) and (max-width:480px) {
+    .km_storecredit_wrap h3 {
+        text-align: left !important;
+    }
+    .km_session_location_filter .fa-map-marker {
+        top: 14px;
+    }
+}
+
+
+
+
+
+/* cart custom design */
+.km_session_location_filter {
+    position: relative;
+    padding: 0px;
+}
+.km_active_filters_wrap ~ .km_active_filters_wrap
+{
+    display: none;
+}
+.km_session_location_filter .fa-map-marker {
+    position: absolute;
+    top: 14px;
+    left: 12px;
+    font-size: 20px;
+}
+#km_location_search {
+    padding-left: 30px;
+}
+
+li.km_session_single_item:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+}
+
+ul.km_sessions_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.km_session_col.km_session_agegrp span {
+    color: #fff;
+}
+ul.km_sessions_list span.time.km_session_month {
+    color: #fff;
+}
+ul.km_sessions_list span.time.km_sess_time {
+    color: #fff;
+    padding-bottom: 6px;
+    display: block;
+}
+ul.km_sessions_list span.session_name {
+    font-size: 18px;
+    line-height: 1;
+}
+ul.km_sessions_list span.price {
+    color: #fff;
+    font-weight: bold;
+}
+.km_row.km_row_margin {
+    margin: 0 auto;
+}
+.km_row_margin.km_row.km_filter_row {
+    display: flex;
+    justify-content: left;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+ul.km_sessions_list span.km_session_days_wrap>div {
+    width: 18px;
+    height: 18px;
+}
+ul.km_sessions_list  .km_session_day.km_tooltip:not(.km_day_active) {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+ul.km_session_tabs {
+    border: 0;
+}
+.km_col_12.km_shadow_right.km_session_list {
+    border: 0;
+}
+ul.km_session_tabs>li {
+    margin: 0;
+    padding: 0 20px;
+}
+ul.km_session_tabs {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+section.program-wrap:not(:last-child) {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+ul.km_session_tabs .km_active_tab {
+    border-bottom: 2px solid blue;
+}
+
+.km_session_title {
+    display: inline-block;
+    background: linear-gradient(to right, #303f9f, #1d78b0) !important;
+    color: #fff;
+    border-radius: 50px;
+    padding: 4px 12px;
+    font-size: 14px;
+}
+span.km_search_text b {
+    color: #212529;
+    padding-top: 8px;
+    display: inline-block;
+}
+.km_sessions_header {
+    margin-bottom: 5px;
+}
+.km_sessions_header .km_row:not(.km_row_margin) {
+    width: 70px;
+}
+
+.km_guest_participants, .km_profile_participants {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+li.add_new_participant {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.selected_kid {
+    display: none;
+}
+
+/*cart popup css */
+
+.km_addtocart_modal .km_atc_header h3 {
+    font-size: 30px;
+    margin: 0px !important;
+    color: rgb(25, 25, 25);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.km_addtocart_modal .km_field_wrap label {
+    font-weight: 500 !important;
+    color: #236db5;
+    font-size: 16px;
+    display: inline-block;
+}
+.km_atc_extended_care h3{
+    font-weight: 600 !important;
+    color: #236db5;
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+}
+.km_addtocart_modal .km_single_kid_wrap {
+    border: 1px solid #236db5;
+    border-radius:0px;
+    background:#fff;
+
+}
+.km_addtocart_modal  .km_kidform_header {
+    background: transparent;
+    width: auto;
+}
+.km_addtocart_modal  .km_kidform_header h3 {
+    background: #236db5;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #fff;
+    border-radius: 0px;
+    padding:0 10px;
+    border-radius:3px;
+}
+
+.km_addtocart_modal  .km_atc_extended_care span.km_radio_text {
+    font-size: 17px;
+    font-weight: 400;
+
+    color:rgba(0, 0, 0, 0.87);
+}
+.km_addtocart_modal  .km_guestparticipant_forms {
+    margin-top: 20px;
+}
+.km_addtocart_modal .km_btn_green{background:#236db5;}
+
+.km_addtocart_modal .km_modal_alert {
+    background: #f9f9f9;
+}
+.km_guestparticipant_forms input, .km_guestparticipant_forms select {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.km_guestparticipant_forms .km_radio, span.km_checkbox {
+    background: transparent;
+}
+.km_addtocart_modal  label.km_radio_wrap.km_radio_wrap_care {
+    margin: 0;
+}
+.km_addtocart_modal  .km_additionalcharges_wrap,.km_addtocart_modal   .additionalcharges_wrap {
+    border: 1px solid #e2e2e2;
+    padding: 5px;
+    border-radius: 3px;
+}
+.km_addtocart_modal  .km_additionalcharges_wrap label,.km_addtocart_modal   .additionalcharges_wrap  label{margin:0;}
+
+
+
+.km_addtocart_modal .km_atc_header {
+    position: absolute;
+    top: 0;
+    padding: 10px;
+}
+.km_addtocart_modal .km_modal_heading {
+    position: absolute;
+    top: -2px;
+    background: #fff;
+    width: 100%;
+    z-index: 9;
+    padding: 10px 30px;
+    font-size: 30px;
+    margin: 0px !important;
+    color: rgb(25, 25, 25);
+    text-transform: capitalize;
+    font-weight: 500;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.km_popup_close {
+
+    z-index: 9999;
+}
+.km_addtocart_modal .km_input, .km_addtocart_modal .km_input a {
+    background: transparent !important;
+    box-shadow:none;
+}
+.km_addtocart_modal .km_modal_content {
+    position: relative;
+    padding-top: 60px;
+}
+
+.km_guestparticipant_forms select.km_date_day {
+    width: 50px;
+}
+.km_guestparticipant_forms select.km_date_year {
+    padding: 0 3px;
+}
+.km_guestparticipant_forms  select.km_date_month {
+    width: auto;
+    padding: 0 4px;
+}
+
+
+
+/*20-may-2021 two cloumnlyaout*/
+.km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout {
+    display: block;
+}
+
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout:before {
+    background: none;
+
+}
+.km_col_9.km_shadow_right.km_session_list div#km_sessionlist_head_two_layout {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.km_col_9.km_shadow_right.km_session_list div#km_sessionlist_head_two_layout .km_session_title {
+
+     background: none !important;
+
+}
+
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .activity_title,
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .session_age_group,
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .km_merchandise_days_val,
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .km_merchandise_expire_date,
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .km_session_year {
+    display: inline-block;
+    width: 100%;
+    color: #9b9b9b !important;
+    font-size: 14px;
+}
+
+
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout span.time.km_session_month {
+    color: #000;
+}
+
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .km_session_days_wrap {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #000;
+}
+
+.km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout span.time.km_sess_time {
+    color: #000;
+
+}
+
+.km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout span.price {
+    color: #000;
+    font-weight: 500;
+}
+
+.km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_session_col.km_session_agegrp span {
+    color: #000;
+    font-weight: 500;
+}
+
+div#km_session_search_container_two_column .km_filter_types {
+     display: block;
+}
+.km_col_9.km_shadow_right.km_session_list ul.km_sessions_list .km_session_day.km_tooltip:not(.km_day_active) {
+    background: 0 0;
+
+     color: #000;
+}
+
+
+.km_col_9.km_shadow_right.km_session_list .km_text_green {
+    color: #009900;
+}
+
+.km_col_9.km_shadow_right.km_session_list .km_search_text {
+    flex: 0 0 100%;
+    padding: 0 0 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.km_col_9.km_shadow_right .km_text_red {
+    color: #FF0000;
+}
+
+
+.km_session_grid ul.km_grid li.km_session_single_item div:not(.km_session_day) {
+    width: 100%;
+    padding: 10px 15px;
+    text-align: left;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    min-height: auto;
+}
+
+.km_session_grid ul.km_grid li.km_session_single_item {
+    width: 31%;
+    margin: 0 20px 15px 0;
+    overflow: hidden;
+}
+
+/*24-may-2021*/
+ul#km_sessions_list_two_column_layout_km_merchandise li.km_session_single_item{
+    list-style: none;
+    border: 1px solid #e2e2e2;
+    margin: 20px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    min-height: 83px;
+    background: none;
+    background-color: snow;
+
+}
+
+ul#km_sessions_list_two_column_layout_km_merchandise li.km_session_single_item:before {
+
+    background:none;
+
+}
+
+ul#km_sessions_list_two_column_layout_km_merchandise  .km_session_col.km_session_date {
+    position: inherit;
+    right: 0px;
+    margin: 0 auto;
+    border-right: 1px solid #eee;
+}
+
+ul#km_sessions_list_two_column_layout_km_merchandise .km_merchandise_days,
+ul#km_sessions_list_two_column_layout_km_merchandise .km_merchandise_expire {
+    color: #000;
+}
+
+
+ul#km_sessions_list_two_column_layout_km_merchandise .km_session_col.km_session_actions a {
+    background: #007bff;
+    border: 1px solid #fff;
+    padding: 7px 6px !important;
+    color: #000;
+}
+
+ul#km_sessions_list_two_column_layout_km_merchandise span.price {
+    color: #000;
+    font-weight: 500;
+}
+
+ul#km_sessions_list_two_column_layout_km_merchandise .km_session_col.km_session_time {
+    position: inherit;
+    right: 290px;
+    top: 10px;
+    border-right: 1px solid #eee;
+}
+
+
+ul#km_sessions_list_two_column_layout_km_merchandise  .km_session_col.km_session_price {
+    position: inherit;
+    right: 180px;
+    top: 10px;
+    border-right: 1px solid #eee;
+}
+
+.km_col_9.km_shadow_right.km_session_list ul.km_sessions_list .km_session_day.km_tooltip:not(.km_day_active) {
+    background: 0 0;
+    color: #000;
+    border: 1px solid #e2e2e2;
+    border-radius: 16px;
+    padding: 2px 4px;
+    font-size: 10px;
+    margin: 0px 2px;
+    text-align: center;
+    background: #e2e2e2;
+    cursor: default;
+    font-weight: 600;
+}
+
+ul#km_sessions_list_two_column_layout_km_merchandise .km_day_active, ul#km_sessions_list_two_column_layout .km_day_active{
+
+    font-weight: 600;
+}
+
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise li.km_session_single_item {
+    width: 31%;
+    margin: 0 20px 15px 0;
+    overflow: hidden;
+}
+
+
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise  li.km_session_single_item div:not(.km_session_day) {
+    width: 100%;
+    padding: 10px 15px;
+    text-align: left;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    min-height: auto;
+}
+
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise li.km_session_single_item .km_session_col.km_session_name ,
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise li.km_session_single_item .km_session_col.km_session_time ,
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise li.km_session_single_item  .km_session_col.km_session_date,
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise li.km_session_single_item .km_session_col.km_session_price{
+    position: inherit;
+     right: 0px;
+     top: 0px;
+     left:0px;
+    border-right: 1px solid #eee;
+}
+
+
+
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise li.km_session_single_item div:last-child {
+    border-bottom: 0 solid #eee;
+    text-align: center;
+        position: inherit;
+     /* right: 0px;   */
+     /* left:0px; */
+}
+
+ul#km_sessions_list_two_column_layout li.km_session_single_item:before {
+
+    background:none;
+
+}
+
+.km_col_9.km_shadow_right.km_session_grid div#km_sessionlist_head_two_layout {
+    text-align: center;
+}
+
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout li.km_session_single_item {
+    margin: 0 15px 15px 0 !important;
+}
+
+
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout  li.km_session_single_item div:not(.km_session_day) {
+    width: 100%;
+    padding: 20px 15px;
+    text-align: left;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    min-height: auto;
+}
+
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout li.km_session_single_item .km_session_col.km_session_name ,
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout li.km_session_single_item .km_session_col.km_session_time ,
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout li.km_session_single_item  .km_session_col.km_session_date,
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout li.km_session_single_item .km_session_col.km_session_price,
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout li.km_session_single_item .km_session_col.km_session_agegrp{
+    position: inherit;
+     right: 0px;
+     top: 0px;
+     left:0px;
+    border-right: 1px solid #eee;
+    padding: 20px;
+    background: #fff;
+
+}
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout li.km_session_single_item span.time.km_session_month ,
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout li.km_session_single_item  span.time.km_sess_time,
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout li.km_session_single_item  .km_session_day.km_tooltip:not(.km_day_active),
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout li.km_session_single_item  span.price,
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout li.km_session_single_item .km_session_col.km_session_agegrp span {
+
+    color: #000;
+
+}
+
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout li.km_session_single_item .km_session_day.km_tooltip:not(.km_day_active){
+    background:#e2e2e2;
+}
+
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout li.km_session_single_item .km_session_col.km_session_actions a {
+    /*background: #236db5;*/
+
+}
+
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout .km_day_active,
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise .km_day_active,
+.km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_day_active  {
+    border: 1px solid #87CEFA !important;
+    font-weight:normal;
+
+}
+
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise .activity_title,
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise .session_age_group,
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise .km_merchandise_days_val,
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise .km_merchandise_expire_date,
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise .km_session_year {
+    width: auto;
+}
+
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout span.session_age_group {
+    color: #9b9b9b !important;
+}
+
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout span.time.km_sess_time {
+    display: inline-block !important;
+}
+
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout li.km_session_single_item div:last-child {
+    /* border-bottom: 0 solid #eee; */
+    text-align: center !important;
+
+}
+
+
+div#km_sessionlist_head_two_layout .km_session_title {
+    background: none;
+}
+
+@media (max-width: 812px){
+
+.km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .km_session_col.km_session_date, .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_session_col.km_session_agegrp, .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_session_col.km_session_name, .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_session_col.km_session_price, .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_session_col.km_session_time {
+    position: initial;
+    right: 0;
+    top: 9px;
+    left: 0;
+    border-bottom: 1px solid #eee;
+    min-width: -webkit-fill-available;
+    text-align: left;
+    padding: 7px 20px;
+}
+
+
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise li,
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise li div,
+.km_col_9.km_shadow_right.km_session_list li#km_sessions_list_two_column_layout li,
+.km_col_9.km_shadow_right.km_session_list li#km_sessions_list_two_column_layout li div {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    min-height: auto;
+    margin: 0 0 15px;
+}
+
+
+
+.km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout li.km_session_single_item div.km_session_col.km_session_actions,
+.km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout li div.km_session_col.km_session_actions{
+        border-right: 0 solid #eee;
+        /* text-align: center; */
+        position: initial;
+        padding: 20px 81px 15px 0px;
+        margin: 0 auto
+    }
+
+.km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise li.km_session_single_item, .km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout li.km_session_single_item{
+    width:30%;
+}
+
+
+ul#km_sessions_list_two_column_layout_km_merchandise span.km_session_days_wrap>div, ul#km_sessions_list_two_column_layout span.km_session_days_wrap>div {
+    width: 100%;
+    height: auto;
+    margin: 0 0 15px;
+    padding: 6px 0px;
+}
+
+.km_text_green {
+    color: #009900;
+}
+
+}
+
+
+/*modal_alert Css 08-june-2021*/
+
+.km_session_purchase .km_modal_alert .km_col_4 {
+    width: 30%;
+}
+
+
+ .km_session_purchase .km_modal_alert a.km_btn {
+  padding: 8px 19px;
+
+}
+
+.km_session_purchase .km_modal_alert .km_modal_content {
+    max-height: 49vh;
+}
+
+.km_booking_type img {
+    width: 100%;
+}
+.km_addtocart_modal .km_atc_header span {
+    display: none;
+}
+
+@media (min-width: 700px){
+    div#kid_information
+    h3.modal-title {
+        font-size: 2.5rem;
+    }
+
+    div#kid_information .km_modal_heading
+    {
+    padding:0px;
+    }
+    div#kid_information .km_modal_heading h3
+    {
+    margin: 3rem auto 3rem;
+    }
+
+}
+
+._single_kid_form .km_modal_content .km_field_wrap
+{
+ padding: 0px 10px !important;
+}
+
+._single_kid_form .km_modal_content .km_medicalform_heading
+{
+padding: 0px 0 10px !important; margin-bottom:15px !important
+}
+.fc-view.fc-month-view.fc-basic-view table, .fc-view.fc-agendaDay-view.fc-agenda-view table {
+
+    margin: 0;
+
+}
+.fc-agenda-view .fc-day-grid .fc-row .fc-content-skeleton {padding-bottom: 0;}
+.fc-view.fc-month-view.fc-basic-view .fc-row.fc-week.fc-widget-content {min-height: 10em;}
+.eventtitle.km_session_single_item{margin: 5px 3px;text-align: left;overflow: hidden}
+
+td.fc-axis.fc-widget-content ,.fc-scroller.fc-time-grid-container{
+    display: none;
+}
+.fc-toolbar .fc-center {
+    margin-left: 260px;
+}
+.fc-scroller.fc-day-grid-container {
+    overflow: hidden !important;
+    height: max-content !important;
+}
+
+
+ .km_modal_content  .km_rokuimg .slick-slide {
+    width: 373px;
+    height: 250px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+a.slick-prev, a.slick-next {
+    font-size: 10px;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 13px 6px;
+    /* -webkit-transform: translate(0,-50%); */
+    transform: translate(0,-50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: 0;
+    background: 0 0;
+    z-index: 999999;
+    background: red;
+    color: transparent !important;
+}
+
+ a.slick-prev::before, button.slick-prev::before {
+    content: "←";
+    color: #fff;
+}
+
+ a.slick-next::before, button.slick-next.slick-arrow::before {
+    content: "→";
+    color: #fff;
+}
+
+.slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover {
+    color: transparent;
+    outline: 0;
+    background: #cd2653 !important;
+}
+a.slick-next.slick-arrow.slick-disabled {
+    display: none;
+}
+
+/*cart sidebar 27-july-2021*/
+
+.removecartselecter {
+    float: right;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    right: 6px;
+    background: #333;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    padding: 0;
+    z-index: 9999999;
+    top: 5px;
+}
+#km_cart_items_wrap ul {
+    padding: 0px;
+    margin: 0px;
+    /* height: 550px; */
+    overflow-y: scroll;
+}
+div#km_cart_items_wrap ul li {
+    list-style: none;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 15px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+#km_cart_items_wrap ul::-webkit-scrollbar {
+    display: none;
+}
+
+#km_cart_items_wrap .checkout_button {
+    padding: 0px 26px;
+    font-size: 14px;
+}
+
+.checkout_button {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 40px;
+    font-size:15px;
+    align-items: center;
+}
+p.continue_shopping_cart{
+    display:none;
+}
+
+/*-- mobile cart view code start --*/
+.cart_bttn_mobile, div#km_cart_items_wrap_mobile {
+    display: none;
+}
+
+/*-- mobile cart view code end  --*/
+
+/*-- sessiontiming  code start  --*/
+.registertimecsection h3 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 23px;
+}
+
+
+.registertimecantainer div {
+    text-align: initial;
+    padding: 6px 8px;
+}
+
+.singleitemmain {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+}
+.singleitemmain .km_session_single_item {
+    width: 33%;
+}
+
+.registertimecantainer .km_session_single_item label {
+  padding: 5px 24px;
+    line-height: 190%;
+    outline-style: none;
+    transition: all .6s;
+    width: 100%;
+    display: inline-block;
+    background: #236db5;
+    color: #fff;
+
+}
+
+.registertimecantainer .km_session_single_item  {
+  display: inline;
+  margin: 1px;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+
+.registertimecantainer .km_session_single_item input[type=checkbox],
+.registertimecantainer .km_session_single_item input[type=radio] {
+    position: absolute;
+    z-index: 9999;
+    top: 11px;
+    left: 5px;
+}
+
+.registertimecantainer .km_session_single_item label {
+
+  cursor: pointer;
+}
+
+.registertimecantainer .km_session_single_item input[type="checkbox"]+label:hover{
+  background: rgba(0, 128, 128, .8);
+}
+
+.registertimecantainer .km_session_single_item input[type="checkbox"]:checked+label {
+  background: rgba(0, 128, 128, .4);
+}
+
+.registertimecantainer .km_session_single_item input[type="checkbox"]:checked+label:hover{
+  background: rgba(0, 128, 128, 0, .7);
+}
+
+
+.registertimecantainer span.km_login_m_title {
+    display: block;
+    padding: 18px 8px;
+}
+
+body.page-template .pac-container.pac-logo {
+    z-index: 99999999 !important;
+}
+/*-- sessiontiming code end  --*/
+
+
+@media only screen and (min-width:759px) {
+    .km_session_sticky_header {
+        position: fixed;
+        width: 100%;
+        z-index: 9;
+        background: #fff;
+        top: 110px;
+        left: 0px;
+        padding: 0px 15px;
+    }
+}
+@media only screen and (max-width:759px)
+{
+    .km_session_mob_tabs {
+        margin-top: 10px;
+    }
+    .km_show_mobile {
+        display:block;
+        width: 100%;
+    }
+    .km_hide_mobile {
+        display:none;
+    }
+    .km_col_1.km_session_list_icons {
+        position: absolute;
+        top: 135px;
+        right: 20px;
+    }
+    #km_session_search_container {
+        position: relative;
+    }
+    ul.km_session_tabs {
+        margin-top: 30px;
+    }
+
+    /* .km_addtocart_modal  .km_modal_footer {
+        position: fixed;
+        bottom: 0;
+    } */
+    .km_addtocart_modal ul.km_guest_participants li {
+        margin: 5px 2px;
+    }
+    .km_addtocart_modal .km_modal_content {
+        max-height: calc(100vh - 55px);
+    }
+    .km_addtocart_modal .km_modal_alert {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: translate(0);
+        margin: 0;
+        border-radius: 0;
+        overflow-y: scroll;
+        transition-duration: 0s;
+    }
+
+    li.km_session_single_item{
+        max-width:100%;
+        min-height: 210px;}
+
+    .km_session_col.km_session_price {
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        text-align: right;
+        padding: 0 10px;
+    }
+    .km_sessions_header {
+
+        align-items: flex-start;
+
+    }
+    .km_row_margin.km_row.km_filter_row {
+        padding-top: 0;
+    }
+    ul.km_session_tabs>li {
+        display: block;
+        width: 100%;
+    }
+    ul.km_session_tabs>li a {
+        display: block;
+    }
+}
+@media only screen and (min-width:760px)
+{
+    .km_show_mobile {
+        display:none;
+    }
+    .km_hide_mobile {
+        display:block;
+        width: 100%;
+    }
+}
+@media only screen and (min-width:760px) and (max-width:1320px){
+    .disabled.km_btn.km_session_btn {font-size: 10px !important;}
+    li.km_session_single_item{padding:0;    }
+    .km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .km_btn {max-width: 200px;}
+    .km_sessions_header {align-items: flex-start; }
+    .km_row_margin.km_row.km_filter_row { padding-top: 0; }
+}
+
+@media only screen and (max-width:380px) {
+.km_session_col.km_session_name {min-width: 170px; }
+.km_session_col.km_session_date {min-width: 150px; }
+}
+
+@media only screen and (max-width:330px)
+{
+    .km_session_col.km_session_name {
+        min-width: 130px !important;
+    }
+    ul.km_sessions_list span.session_name {
+        font-size: 14px;
+        line-height: 1;
+    }
+    .session_seats {
+        font-size: 11px;
+    }
+    .km_sessions_header {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 620px){
+.fc-toolbar .fc-right {
+    float: right;
+    margin-right: 61px;
+}
+
+.fc-toolbar .fc-center {
+   margin-left: 0px;
+}
+    .km_profile_participants li {
+
+    margin: 5px;
+     width: 46%;
+
+    }
+
+.km_profile_participants .km_kid_pic_wrapper {
+    width: 33px;
+    height: 27px;
+    margin-right: 6px;
+}
+
+
+
+.cart_bttn_mobile {
+    display: block;
+    position: fixed;
+    margin: 0 auto;
+    bottom: 52px;
+    left: 0%;
+    right: 0%;
+    z-index: 10;
+    text-align: -webkit-center;
+    z-index: 11111;
+    width: 100%;
+}
+
+
+/*.cart_bttn_mobile {
+    display: block;
+    position: fixed;
+    left: 82%;
+    z-index: 10;
+    text-align: -webkit-center;
+    top: 100px;
+    z-index:11111;
+}*/
+
+button.mobile_bttn {
+    margin: 0 auto;
+    padding: 20px 90px !important;
+    text-transform: capitalize;
+}
+
+div#km_cart_items_wrap_mobile {
+    position: fixed;
+    background-color: #f5f5f5;
+    z-index: 11111;
+    max-width: -webkit-fill-available;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    top: 5000px;
+    right:0;
+    min-width: -webkit-fill-available;
+    height: 100%;
+    transition: 1s;
+    background-position: 50% 50%;
+    overflow: auto;
+    display:block;
+}
+
+div#km_cart_items_wrap_mobile ul li {
+    list-style: none;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 15px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+
+div#km_cart_items_wrap_mobile ul li span.cart_item_seats {
+    display: block
+}
+
+#km_cart_items_wrap_mobile ul {
+    padding: 0px;
+    margin: 0px;
+}
+div#km_cart_items_wrap_mobile ul li:last-child {
+    border: 0;
+}
+#km_cart_items_wrap_mobile ul {
+    padding: 0px;
+    margin: 0px;
+    /* height: 544px; */
+    overflow-y: scroll;
+}
+div#km_cart_items_wrap_mobile ul li {
+    list-style: none;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 15px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+#km_cart_items_wrap_mobile ul::-webkit-scrollbar {
+    display: none;
+}
+
+p.continue_shopping_cart{
+    display:none;
+}
+.cart_bttn_mobile span#km_cart_total_count {
+    top: -8px;
+    color: #ffff;
+    position: relative;
+}
+.mobile_cart_count_0 {
+    display: none;
+}
+
+#km_modal, #km_sidebar_modal, .km_modal{
+
+z-index: 111112 !important;
+}
+.km_cart_toggle {
+    display: none;
+}
+
+
+}
+
+@media only screen and (min-width: 100px) and (max-width: 812px){
+
+.my__purchase-details > div {
+    padding: 10px 20px !important;
+}
+
+.registertimecantainer .km_session_single_item input[type=checkbox], .registertimecantainer .km_row.km_session_single_item input[type=radio] {
+  top: 13px;
+}
+
+.registertimecantainer .km_session_single_item {
+    display: block;
+}
+
+.registertimecantainer .km_session_single_item label{
+width: -webkit-fill-available;
+}
+
+.singleitemmain .km_session_single_item {
+    width: 50%;
+}
+.km_guestparticipant_forms .km_field_wrap {
+    padding: 10px 0;}
+/*sessiontiming code start*/
+
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+.km_profile_participants li {
+
+     width: 42.5% !important;
+
+    }
+
+    .cart_bttn_mobile span#km_cart_total_count {
+    top: -8px;
+    color: #ffff;
+    position: relative;
+    }
+
+    p.continue_shopping_cart {
+    font-size: 12px;
+    }
+    button.mobile_bttn {
+    margin: 0 auto;
+    padding: 20px 90px !important;
+    text-transform: capitalize;
+    }
+
+}
+
+/* @media only screen and (min-width:100px) and (max-width:768px) {
+    .km_heading { padding: 40px 0 0; margin: 0;}
+    .km_total_price_wrap {margin: 30px 0 0;}
+    .km_login_m_features span {line-height: 25px;}
+    .km_login_m_button .km_button_default {margin: 10px auto 10px;}
+    ul.km_sessions_list li#km_session_two_coloum_layout.km_session_single_item {padding: 0 0px 0 0;}
+    .km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .km_btn {max-width: 180px !important;}
+
+    .km_modal_content {overflow: scroll !important;padding: 0;}
+    .km_field_wrap fieldset {margin-right: 0;}
+    .km_modal_footer .km_add_participant_cancel, .km_modal_footer .km_add_participant {
+    padding: 8px 10px; font-size: 12px; text-transform: uppercase; font-weight: 500; width: 80px; text-align: center;}
+    .km_modal_footer .km_add_to_cart {width: 110px;text-align: center;}
+    .km_default_avatar {height: 25px;width: 25px;font-size: 11px;padding: 0;}
+    .km_participant_name {line-height: 16px;font-size: 13px;}
+    .km_modal_footer {width: 100%;display: flex;justify-content: space-between;align-items: center;}
+    .km_modal_footer .km_required_disclaimer {position: relative;padding: 0;}
+} */
+
+div#km_sessionlist_head_two_layout .km_session_title {
+    background: none !important;
+}
+
+ul#km_sessions_list_two_column_layout_km_merchandise .km_session_col.km_session_actions a {
+    background: #236db5 !important;
+    color: #fff !important;
+    border: 0 !important ;
+    margin: 0 5px !important;
+    padding: 10px 20px !important;
+    border-radius: 3px !important;
+    cursor: pointer !important;
+    font-weight: 600 !important;
+}
+ul#km_sessions_list_two_column_layout_km_merchandise .km_session_col.km_session_date {
+    right: 160px !important;
+}
+
+ul#km_sessions_list_two_column_layout_km_merchandise li.km_session_single_item{
+       min-height: 80px !important;
+}
+/*-- mobile cart view code start --*/
+.cart_bttn_mobile, div#km_cart_items_wrap_mobile {
+    display: none;
+}
+/*-- mobile cart view code end --*/
+@media only screen and (min-width: 100px) and (max-width: 812px){
+    .km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout_km_merchandise li.km_session_single_item, .km_col_9.km_shadow_right.km_session_grid ul#km_sessions_list_two_column_layout li.km_session_single_item {
+        width: 100% !important;
+    }
+    .km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout:before {
+      height: auto !important;
+    }
+    .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_session_col {
+        /*min-height: 100px !important;*/
+        justify-content: center;
+        align-items: center;
+        display: flex !important;
+        flex-direction: column;
+        margin: 0px auto!important;
+        min-width: 100% !important;
+    }
+    .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_session_col.km_session_agegrp {
+        position: relative !important;
+        right: 0 !important;
+        top: 0 !important;
+        left: auto !important;
+        padding: 10px !important;
+        min-width: 100% !important;
+        text-align: center !important;
+    }
+    .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout
+    .km_session_col.km_session_actions {
+        padding: 12px 0px !important;;
+    }
+    .km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .km_session_col.km_session_date, .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_session_col.km_session_agegrp, .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_session_col.km_session_name, .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_session_col.km_session_price, .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_session_col.km_session_time, ul#km_sessions_list_two_column_layout_km_merchandise {
+        text-align: center !important;
+    }
+    ul#km_sessions_list_two_column_layout_km_merchandise span.km_session_days_wrap>div, ul#km_sessions_list_two_column_layout span.km_session_days_wrap>div {
+        width: auto !important;
+        margin: 0px 2px 12px !important;
+        padding: 2px 4px !important;
+    }
+    .km_col_9.km_shadow_right.km_session_list li#km_session_two_coloum_layout .km_session_col.km_session_date, .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_session_col.km_session_agegrp, .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_session_col.km_session_name, .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_session_col.km_session_price, .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout .km_session_col.km_session_time {
+
+        top: 0px !important;
+    }
+    #km_sessions_list_two_column_layout_km_merchandise li.km_session_single_item{
+        display: block !important;
+        min-height: 100% !important;
+    }
+    .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout_km_merchandise .km_session_col.km_session_name {
+        position: relative !important;
+        min-width: -webkit-fill-available !important;
+    }
+    ul#km_sessions_list_two_column_layout_km_merchandise .km_session_col {
+        min-height: 100px !important;
+        justify-content: center;
+        align-items: center;
+        display: flex !important;
+        flex-direction: column;
+        margin: 0px auto!important;
+        min-width: 100% !important;
+    }
+    ul#km_sessions_list_two_column_layout_km_merchandise .km_session_col.km_session_date {
+         left: 0px !important;
+         top: 0px !important;
+         text-align: center !important;
+    }
+    ul#km_sessions_list_two_column_layout_km_merchandise .km_session_col.km_session_price {
+         position: relative !important;
+         top: 0px !important;
+         right: 0px !important;
+         text-align: right !important;
+    }
+    ul#km_sessions_list_two_column_layout_km_merchandise .km_session_col.km_session_time {
+        position: relative !important;
+        right: 0px !important;
+        top: 0px !important;
+    }
+    .km_session_col.km_session_actions{
+        position: inherit !important;
+    }
+}
+
+@media only screen and (min-width: 759px){
+    .km_session_sticky_header {
+       position: inherit !important;
+       z-index: unset !important;
+       background:none !important;
+    }
+    button.mobile_bttn {
+    	margin: 0 auto;
+    	padding: 20px 90px !important;
+    }
+}
+@media only screen and (max-width: 1500px){
+    .km_col_9.km_shadow_right.km_session_list ul#km_sessions_list_two_column_layout_km_merchandise .km_session_col.km_session_name {
+        position: relative !important;
+    }
+}
+
+ul.km_sessions_list { 
+    box-shadow: 0 0 0px rgb(0 0 0 / 0%) !important;
+    border: 0px !important;
+}
+
+.km_shadow_right.km_session_list ul.km_sessions_list .km_session_day.km_tooltip:not(.km_day_active) {
+   height: 22px!important;
+    width: 22px!important;
+}
+.km_sfdsfds .km_session_prices span.km_session_price {
+    display: inline-table;
+}
+.km_sfdsfds span.price {
+    font-size: 14px;
+}
+.km_session_list .km_cart_button_p a {
+    white-space: nowrap;
+    font-size: 11px !important;
+}
+.km_sfdsfds span.activity_title {
+    display: none !important;
+}
+.km_sfdsfds {
+    white-space: nowrap;
+}

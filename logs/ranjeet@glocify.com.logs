@@ -1,0 +1,21 @@
+adding logs for user######### 
+First step checkout: parent Information
+{"name":"Sanjeev277","guestEmail":"ranjeet@glocify.com","gender":"","countryCode":"","phone":"3434234234","maritalStatus":""}
+######### 
+Purchase step: checking Store credit
+{"statusCode":200,"message":"Success","data":[],"extraData":null,"success":true,"apiUrl":"http:\/\/api-dev.kidcircle.com\/v2\/wp\/userProviderCreditSummary\/5a3ed94327939b47fad343b9"}
+######### 
+First step checkout: parent Information
+{"name":"Sanjeev277","guestEmail":"ranjeet@glocify.com","gender":"female","countryCode":"","phone":"3434234234","maritalStatus":"single"}
+######### 
+Purchase step: checking Store credit
+{"statusCode":200,"message":"Success","data":[],"extraData":null,"success":true,"apiUrl":"http:\/\/api-dev.kidcircle.com\/v2\/wp\/userProviderCreditSummary\/5a3ed94327939b47fad343b9"}
+######### 
+Purchase step: checking Store credit
+{"statusCode":200,"message":"Success","data":[],"extraData":null,"success":true,"apiUrl":"http:\/\/api-dev.kidcircle.com\/v2\/wp\/userProviderCreditSummary\/5a3ed94327939b47fad343b9"}
+######### 
+First step checkout: parent Information
+{"name":"sanjeevG","guestEmail":"upworksanjeev@gmail.com","gender":"male","countryCode":"1","phone":"9653414868","maritalStatus":"single"}
+######### 
+Purchase step: checking Store credit
+{"statusCode":200,"message":"Success","data":[],"extraData":null,"success":true,"apiUrl":"http:\/\/api-dev.kidcircle.com\/v2\/wp\/userProviderCreditSummary\/5a3ed94327939b47fad343b9"}

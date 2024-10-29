@@ -1,0 +1,237 @@
+.km_session_sticky_header {
+    position: relative !important;
+
+}
+/*23-dec-2021 changes*/
+section.km_SessionsSection.one_view_theme .km_session_col.km_session_price {
+    right: 0;
+    left: 0;
+    bottom: 8px;
+    font-size: 14px;
+}
+section.km_SessionsSection.one_view_theme .km_session_col.km_session_price span:first-child {
+      color: #000;
+}
+
+.km_addtocart_modal .km_guestparticipant_forms {
+    margin-top: 20px;
+}
+
+
+/*24-dec-2021 start */
+.km_session_col.km_session_agegrp span, ul.km_sessions_list span.time.km_session_month {
+    color: #fff;
+    font-size: 16px;
+    margin: 5px;
+    width: inherit;
+}
+.close, .removecartselecter, .year.km_session_year, span.km_review_date {
+    width: fit-content;
+}
+.one_view_theme .km_session_col.km_session_date {
+    position: absolute;
+    top: 0px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    left: 0;
+}
+
+.one_view_theme .km_session_col.km_session_agegrp {
+    top: 31px;
+    padding: 0;
+    left: 0;
+}
+
+section.km_SessionsSection.one_view_theme .km_session_col.km_session_name{
+      min-width: 230px;
+}
+
+/*24-dec-2021 end */
+
+/* @media only screen and (max-width: 759px){
+section.km_SessionsSection.one_view_theme .km_session_col.km_session_price {
+    right: 10px !important;
+}
+} */
+
+@media only screen and (min-width: 620px) and (max-width: 1320px){
+    section.km_SessionsSection.one_view_theme li.km_session_single_item {
+        position: relative !important;
+    }
+
+    section.km_SessionsSection.one_view_theme .km_session_col.km_session_actions {
+        position: absolute !important;
+    }
+
+    /*24-dec-2021 start */
+    section.km_SessionsSection.one_view_theme .km_session_col.km_session_name {
+        min-width: 230px !important;
+    }
+    section.km_SessionsSection.one_view_theme   .km_session_col.km_session_price {
+      left: 167px !important;
+      text-align: left;
+      top: 0px;
+      padding: 0px;
+      top: 150px;
+  }
+  section.km_SessionsSection.one_view_theme .km_session_col.km_session_date {
+      padding:0px;
+  }
+    /*24-dec-2021 end */
+}
+
+
+/*24-dec-2021 start */
+@media only screen and (min-width: 100px) and (max-width: 768px){
+.one_view_theme li.km_session_single_item.km_one_column{ max-width: 100% !important; }
+  .one_view_theme .km_session_col.km_session_date {
+      position: absolute;
+      top: 0px;
+      font-size: 17px;
+      padding: 0px 0px;
+      left:0;
+  }
+.one_view_theme ul.km_sessions_list span.km_session_days_wrap>div {
+    margin-top: 0px !important;
+}
+  section.km_SessionsSection.one_view_theme .km_session_col.km_session_name {
+    min-width: 210px;
+  }
+
+
+}
+
+
+
+/*24-dec-2021 end */
+.km_plans_btn {
+    font-weight: 600;
+    font-size: 10px!important;
+    color: #fff !important;
+}
+button#filter_type_activities {
+    margin-top: 0px;
+    position: relative;
+    display: flex;
+    border: 1px solid #e2e2e2;
+    padding: 15px 12px !important;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 0px;
+}
+.activitiescontent.km_onecolumntheme_filter_content {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+    transition: all .3s ease-out;
+    padding: 8px 23px;
+    background-color: #fff;
+    left: 0px;
+    padding: 10px 15px 0px 15px;
+    position: absolute;
+    width: 248px;
+    z-index: 9;
+    top: 70px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+}
+.activitiescontent.km_onecolumntheme_filter_content.activefilter {
+    visibility: visible !important;
+    opacity: 1 !important;
+    top: 36px !important;
+}
+.km_filter_form .km_radio_wrap {
+    border-bottom: 1px solid #dfdfdf;
+    line-height: 40px;
+    margin-bottom: 0;
+    font-weight: 500;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.km_filter_activities {
+    position: relative;
+}
+#km_activity_search {
+    height: 50px;
+}
+ul.km_sessions_list {
+    box-shadow: 0 0 0px rgb(0 0 0 / 0%) !important;
+    border: 0px !important; gap: 5px;
+}
+.one_view_theme ul.km_sessions_list.km_list.km_grid {
+    justify-content: space-between;
+}
+.one_view_theme li.km_session_single_item.km_one_column {
+    display: block; padding: 0px;
+        text-align: left; margin: 50px 0 0;
+    background: #f5f5f5 !important; max-width: 32%;
+    border: 1px solid #e7e7e7;;
+    box-shadow: 0 0 10px rgba(0 0 0 / 10%);
+}
+.one_view_theme li.km_one_column > div {
+    height: auto;
+    border: 0;
+    z-index: 1; position: relative;
+    color: #333; min-height: auto;
+    border-top: 1px solid #e7e7e7;
+    padding: 5px 20px;
+}
+.one_view_theme li.km_one_column div.km_img_div + .km_session_col {
+    border-top: 0 !important;
+}
+span.session_name {
+    font-weight: 600;
+}
+.one_view_theme li.km_one_column div .km_session_days_wrap {
+    justify-content: flex-start; margin: 5px 0;
+}
+span.km_session_prices {
+    font-weight: normal;
+    font-size: 15px;
+}
+.one_view_theme li.km_session_single_item.km_one_column .km_session_col {
+    display: block;
+}
+.one_view_theme li.km_session_single_item.km_one_column .km_session_col a {
+   padding: 4px 10px !important;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.one_view_theme li.km_one_column:before {height: 100% !important; display: none;}
+.one_view_theme li.km_one_column div span {
+    color: #333 !important; line-height: 24px;
+}
+.one_view_theme ul.km_sessions_list li.km_one_column div span.price {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-end;
+}
+.km_img_div {
+    text-align: center;
+}
+.one_view_theme li.km_session_single_item div.km_img_div img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: -40px auto 0px auto;
+    overflow: hidden; object-fit: cover;
+}
+.one_view_theme li.km_session_single_item.km_one_column .km_session_col.km_price_grid {
+    display: grid;
+    justify-content: center !important;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+.one_view_theme li.km_one_column div .GridIcon {
+    padding-right: 0;
+}
+
+.one_view_theme li.km_one_column div .disabled {color: #fff !important;}
